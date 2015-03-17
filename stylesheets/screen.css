@@ -1,0 +1,70 @@
+@import "reset.css";
+
+body {
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+}
+
+em {
+  font-style: italic;
+}
+
+p {
+  margin: 1em 0;
+  line-height: 1.25em;
+}
+
+header {
+  background-color: #4A4A4A;
+  color: #fff;
+  padding: 1.5em;
+  font-family: times, serif;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 3.4em;
+  text-transform: lowercase;
+}
+
+header .pronunciation {
+  padding-left: 1em;
+  font-size: 1.15em
+}
+
+header .pos {
+  display: block;
+  padding: 1em 0;
+  font-size: 1.15em
+}
+
+header ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+header ol li {
+  padding-bottom: 1em;
+}
+
+.about {
+  max-width: 26em;
+  padding: 0 1em;
+  margin: 1em auto;
+}
+
+footer {
+  background-color: #4A4A4A;
+  color: #fff;
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .copyright {
+  max-width: 26em;
+  padding: 0 1em;
+  margin: 0 auto;
+}
