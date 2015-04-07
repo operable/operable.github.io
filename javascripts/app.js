@@ -225,7 +225,7 @@
                   'div',
                   { className: 'container jumbotron' },
                   _React2['default'].createElement(
-                      'img', { src: "/images/operable-horiz-100px.png" }
+                      'img', { src: "/images/operable-horiz-100px.png", style: { marginLeft: '0px' }}
                   )
                 ),
                 _React2['default'].createElement('hr', { className: 'divider' }),
@@ -250,17 +250,22 @@
                   _React2['default'].createElement(
                     'p',
                     null,
-                    'Over the past decade, our industry has seen an incredible increase in the rate at which applications are being developed.  This increase has driven a huge amount of change in the way that teams work together to get applications into production.  Unfortunately, the processes and tools that we use to handle problems with those applications haven\'t evolved at the same rate.'
+                      'Over the past decade our industry has seen a fundamental shift in the rate at which applications are developed and deployed. We\'re still sorting out the ramifications but one thing is clear: software engineering and operations teams are bearing the brunt of the change. The processes and tools that we use to handle problems with those applications haven\'t evolved at the same rate.'
                   ),
                   _React2['default'].createElement(
                     'p',
                     null,
-                    'Every system is going to have unexpected problems, no matter how well it is designed. We\'re taking the experience we have building and operating some of the most popular applications and infrastructure services on the Internet and building tools to help you respond to those problems better. Letting you know when your application has a problem is important, but it\'s not enough. We want to arm you with tools to help your team collaborate to resolve problems, remember what you did, and apply what you learned back into your development process.'
+                    'Every system, no matter how well it is designed, is going to have unexpected problems. At Operable we\'re distilling our accumulated experience building and operating some of today\'s most popular applications and infrastructure services into tools to better equip teams to handle the challenges of modern production environments.'
                   ),
                   _React2['default'].createElement(
                     'p',
                     null,
-                    'You\'re building amazing applications every day, you should have amazing tools to manage them. We\'re here to help.'
+'It\'s no longer enough to wake engineers up in the middle of the night when something breaks. They need tools which work with them and support their problem solving efforts. This is our mission. We want to arm you with tools to help your team collaborate to resolve problems, remember what you did, and apply what you learned back into your development process.'
+                  ),
+                  _React2['default'].createElement(
+                    'p',
+                    null,
+                    'Production is a hard taskmaster. We\'re here to help.'
                   )
                 ),
                 _React2['default'].createElement(
