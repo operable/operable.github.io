@@ -1,0 +1,55 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+ text-transform: uppercase;
+}
+
+img.COG {
+  width: 100%;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 0;
+  border-top: 1px dotted #e0e0e0;
+}
+
+p.thin {
+  font-weight: 200;
+}
+
+h4.thin {
+  font-weight: 200;
+}
+
+a.privacy-policy {
+  color: #acacac;
+}
+
+::selection {
+  background: #6bb6e6; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #6bb6e6; /* Gecko Browsers */
+}
+
+a.footer {
+  text-decoration: none;
+  color: #acacac;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.footer hover {
+  color: rgb(142, 142, 142);
+}
+
+div.container {
+  margin-top: 5%;
+}
