@@ -1,0 +1,6 @@
+{
+  "name": "my_great_project",
+  "dependencies": {
+    "octicons": "*"
+  }
+}

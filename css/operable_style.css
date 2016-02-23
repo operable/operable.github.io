@@ -1,14 +1,16 @@
+/* BODY SET */
+
 body {
   font-family: 'Oswald', sans-serif;
+  font-weight: 300;
   font-size: 16px;
 }
 
-h1 {
- text-transform: uppercase;
+::selection {
+  background: #6bb6e6; /* WebKit/Blink Browsers */
 }
-
-img.COG {
-  width: 100%;
+::-moz-selection {
+  background: #6bb6e6; /* Gecko Browsers */
 }
 
 hr {
@@ -18,8 +20,15 @@ hr {
   border-top: 1px dotted #e0e0e0;
 }
 
-p.thin {
-  font-weight: 200;
+/* FONTS */
+
+h1, h2, h3, h4, h5, h6 {
+ text-transform: uppercase;
+ font-family: 'Oswald', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 h4.thin {
@@ -30,26 +39,218 @@ a.privacy-policy {
   color: #acacac;
 }
 
-::selection {
-  background: #6bb6e6; /* WebKit/Blink Browsers */
+/* IMAGE */
+
+img.COG {
+  width: 100%;
 }
-::-moz-selection {
-  background: #6bb6e6; /* Gecko Browsers */
+
+#logo {
+  margin: 1rem 0;
+}
+
+
+
+
+
+/* FOOTER STUFFS */
+
+.footer {
+  text-align: center;
 }
 
 a.footer {
   text-decoration: none;
   color: #acacac;
-}
-
-a {
-  text-decoration: none;
+  text-align: center;
 }
 
 a.footer hover {
   color: rgb(142, 142, 142);
 }
 
-div.container {
+/* NAVIGATION STUFFS */
+
+.navigation {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+}
+
+.hero {
+ background: url(../images/CogLanded.svg) no-repeat center center fixed;
+ background-color: gray;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ margin: 0 auto;
+ padding: 0 20px;
+ box-sizing: border-box;
+}
+
+.herocontent {
+  margin-bottom: 0rem;
+}
+
+/* INTRO AREA + COPY */
+
+.intro {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  float: left;
+  vertical-align: top;
+  padding: 0rem;
+}
+
+p.introcopy {
+  line-height: 70%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 10rem;
+  color: #369FCD;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.introcopyversionv {
+  color: #196a8e;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 70%;
+}
+
+.introcopyversionnumber {
+  color: #196a8e;
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 70%;
+}
+
+p.introsub, h4.introsub{
+  color: white;
+}
+
+p.introsub{
+  font-size: 2rem;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0.9);;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 5rem;
+ }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #369FCD;
+  border-color: #369FCD;
+  padding: 0 3rem;
+  font-weight: 500;}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+.i {
+    font-size: 24px;
+}
+
+
+
+/* TRASH CODE */
+/* TRASH CODE */
+/* TRASH CODE */
+/* TRASH CODE */
+/* TRASH CODE */
+/* TRASH CODE */
+/* TRASH CODE */
+/* TRASH CODE */
+/* TRASH CODE */
+
+/* SHOW HIDE COG */
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #img.COG {
+    display: block;
+    width:100%;
+     }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #img.COG { display: none; }   /* hide it elsewhere */
+
+}
+
+
+div.ramp {
   margin-top: 5%;
+  padding-top: 10%;
+}
+
+#sitefooter {
+  height: 20rem;
+position: relative;
+}
+
+/* I don't think I need this any longer */
+
+p.thin {
+  font-weight: 200;
 }

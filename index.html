@@ -6,7 +6,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Operable + Cog!</title>
-  <meta name="description" content="Operable, home of Cog, the chatops platform you've been looking for.">
+  <meta name="description" content="Operable, makers of Cog, the ChatOps platform you've been looking for.">
   <meta name="author" content="Operable Inc.">
 
   <!-- Mobile Specific Metas
@@ -18,6 +18,8 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Carter+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -33,83 +35,111 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-73327436-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+  </script>
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column">
-        <img class="COG" src="images/Cog_02.jpg">
+  <!--HERO STUFFS-->
+
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column herocontent">
+          <div class="intro">
+            <a href="index.html"><img id="logo" src="images/operable_whitelogo.svg"></a>
+            <p class="introcopy">Cog<span class="introcopyversionv">v</span><span class="introcopyversionnumber">0.2</span><br>
+              <p class="introcopy">has</p>
+              <p class="introcopy">landed.</p>
+            </p>
+            <h4 class="introsub">DevOps is a team sport.<br>Cog helps your team win.</h4>
+            <p class="introsub">
+              Cog brings the power of the command line to the place you collaborate with your
+              team the most -- your chat window.
+            </p>
+            <a href="https://github.com/operable/cog" alt="Link to Cog's code on GitHub" title="Git ze codes!"><button class="button-primary">Get code @ <i class="fa fa-github"></i></button></a>&nbsp &nbsp<a href="http://slack.operable.io/" alt="Chat with the Cog community on Slack" title="Beep bop berp...(bot chatter)"><button>Chat with us on <i class="fa fa-slack"></i></button></a>
+          </div>
+        </div>
       </div>
-      <div class="one-half column">
-        <img src="images/operablelogo.png">
-        <h1>Introducing <strong>Cog</strong></h1>
-        <h4>DevOps is a team sport. Play to win.</h4>
-
-        <p class="thin">
-          Cog brings the power of the command line to the place you collaborate with your
-          team all the time -- your chat window.
+      <div class="one-half column herocontent">
+        <!--<img class="COG" src="images/RocketCog_Blue_300px.png">-->
+      </div>
+    </div>
+  </div>
+  <!--CONTENT STUFFS-->
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="one-third column">
+        <h2>About Cog</h2>
+        <p class="thin">We believe that DevOps is a team sport and in order to <strong>win more often</strong>, we created Cog.</p>
+        <p>
+          Cog is ChatOps turned up to 11. Built with powerful access control means that you can collaborate around even the most sensitive
+          tasks with confidence. We focus on extensibility and adaptability, so your team can respond quickly to the unexpected, without sacrificing visiblity, automation or security. Have your cake and eat it too.
         </p>
+      </div>
+      <div class="one-third column">
+        <h2>Cog Information</h2>
         <p class="thin">
-          Powerful access control means you can collaborate around even the most sensitive
-          tasks with confidence. A focus on extensibility and adaptability means that you
-          can respond quickly to the unexpected, without your team losing visibility.
+          <a href="https://github.com/operable/cog" alt="Link to Cog's code on GitHub" title="Git ze codes!"><button class="button">Cog Repo on GitHub</i></button></a>
+          <a href="https://github.com/operable/cog/wiki" alt="Link to Cog's documentation" title="Documentation on how Cog works."><button class="button">Documentation</button></a>
+          <a href="https://medium.com/operable-news" alt="Blog articles by Operable" title="Cog Blog Fog Dog"><button class="button">Blog</button></a>
+          <!--<form method="get" action="downloads/CogColoringSheet.png" alt="Cog coloring sheet" title="Crayons + Cog = Stress Relief"><button class="button" type="submit">Cog Coloring Sheet</button></form>-->
         </p>
-        <p class="thin">
-          We're currently in private alpha and will have a lot more to share in the
-          coming weeks. We think you're going to be as excited about Cog as we are once you
-          get a chance to try it.
-        </p>
-
-        <p class="thin">
-          Sign up below to be considered for future test phases and to be notified about our
-          public release.
+      </div>
+      <div class="one-third column">
+        <h2>The latest news</h2>
+        <p class="thin">No spam, we promise! Only seldom goodies on how Cog is evolving OR if we have contests, need user feedback, etc.
         </p>
 
         <!-- Mailchimp Subscribe Form
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <style type="text/css">
-          #mc_embed_signup{background:#fff; clear:left; font:16px 'Oswald',Helvetica,Arial,sans-serif; width:300px; }
+        #mc_embed_signup{background:#fff; clear:left; font:16px 'Oswald',Helvetica,Arial,sans-serif; width:300px; }
         </style>
         <div id="mc_embed_signup">
-          <form action="https://operable.us10.list-manage.com/subscribe/post?u=476dad5ee4509929cf7b6f956&amp;id=7d57b74520" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action="//operable.us10.list-manage.com/subscribe/post?u=476dad5ee4509929cf7b6f956&amp;id=a14d0bdbbb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <div class="mc-field-group">
-	        <label for="mce-EMAIL">Email Address</span>
+                <label for="mce-EMAIL">Email Address
                 </label>
-	        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
               </div>
-	      <div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_476dad5ee4509929cf7b6f956_7d57b74520" tabindex="-1" value=""></div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_476dad5ee4509929cf7b6f956_a14d0bdbbb" tabindex="-1" value=""></div>
               <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
             </div>
           </form>
         </div>
         <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         <!--End mc_embed_signup-->
-
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns footer">
         <hr>
-        <p class="thin">Meanwhile, head over to our <a href="https://twitter.com/operableinc">Twitter</a> to read up on the latest Cog happenings.</p>
-        <p class="thin"><a class="footer "href="https://twitter.com/operableinc">Twitter</a> | <a class="footer" href="mailto:info@operable.io?Subject=Hello! Let's talk Cog." target="_top">Contact</a> | <a class="footer" href="https://www.iubenda.com/privacy-policy/7789404">Privacy Policy</a></p>
+        <p class="thin">
+          <i class="fa fa-copyright"></i> 2016 Operable Inc. |
+          <a class="footer "href="https://twitter.com/operableinc">Twitter</a> |
+          <a class="footer" href="mailto:info@operable.io?Subject=Hello! Let's talk Cog." target="_top">Contact</a> |
+          <a class="footer" href="https://medium.com/operable-news">Cog Blog</a> |
+          <a class="footer" href="https://www.iubenda.com/privacy-policy/7789404">Privacy Policy</a>
+        </p>
       </div>
     </div>
   </div>
 
-<!-- End Document
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
