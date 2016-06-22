@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Operable">
+  <meta name="keywords" content="Operable, devops, chatops, chatbot, slackbot">
+  <meta name="author" content="Operable, Inc.">
+
+  <title>
+    Operable + Cog
+  </title>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+  <link href="assets/css/application-startup.css" rel="stylesheet">
+  <link href="assets/css/operable.css" rel="stylesheet">
+
+  <!-- Google Analytics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73327436-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+
+
+
+  <style>
+  /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+  /* this chunk of css is not part of the toolkit :) */
+  /* …curses ios, etc… */
+  @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+      width: 1px;
+      min-width: 100%;
+      *width: 100%;
+    }
+    #stage {
+      height: 1px;
+      overflow: auto;
+      min-height: 100vh;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  </style>
+</head>
+<body>
+  <!--NAVIGATION START-->
+  <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+    <ul class="nav nav-bordered nav-stacked">
+      <li class="nav-header">Operable</li>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="products.html">Products</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="http://docs.operable.io/docs">Docs</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="invite.html">Flywheel Invite</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="stage" id="stage">
+
+    <div class="block block-inverse block-fill-height app-header"
+    style="background-image: url(assets/img/CogLanded.svg);">
+
+    <nav class="navbar-default navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-md">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed p-x-0"
+          data-target="#stage" data-toggle="stage" data-distance="-250">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img class="operablelogo" src="assets/img/logow.png">
+        </a>
+      </div>
+      <div class="navbar-collapse collapse text-uppercase">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="http://docs.operable.io/docs">Docs</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="invite.html">Flywheel Invite</a>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!--NAVIGATION END-->
+
+  <!--CONTENT START-->
+  <div class="block-xs-middle p-b-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-6">
+          <p class="introcopy">Hosted<br>Cog!</p>
+          <p class="introsub">We'll host Cog for you.<br>One less thing to manage, <strong>WIN.</strong></p>
+          <p class=" m-b-md text-muted">Hosted Cog, better known as <strong>Flywheel</strong> was built for those engineers that need the power of Cog, but don't want the responsibility of managing it. You already have enough to do, let us host Cog for you.</p><br>
+          <!--<a href="#"><button class="btn btn-primary btn-lg">Get code @ <i class="fa fa-github"></i></button></a>
+          <a href="#"><button class="btn btn-default btn-lg btn-borderless text-uppercase"></a>Chat with us on <i class="fa fa-slack"></i>-->
+          <a href="invite.html"><button class="btn btn-primary btn-lg">Request an Invite!</button></a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="block block-secondary app-iphone-block">
+  <div class="container">
+    <div class="row app-align-center">
+      <div class="col-sm-6">
+        <img class="badges" src="assets/img/cog1.gif">
+      </div>
+
+      <div class="col-sm-6">
+        <h6 class="text-muted text-uppercase">Command Cog</h6>
+        <h3 class="m-t-0">What do you want Cog to do for you?</h3>
+        <p class="lead m-b-md">How does Cog work? With Cog integrated in your Slack, HipChat or IRC chat, you are able to command Cog to do a lot of things. Check out what is most popular at the moment.</p>
+        <ul>
+          <p><li>Lorem <code>ipsum</code> dolor</li></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="block block-inverse block-secondary app-code-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h6 class="text-muted text-uppercase">Ping Command</h6>
+        <pre class="app-code">
+<span>1</span> ---
+<span>2</span> name: ping
+<span>3</span> version: "0.1"
+<span>4</span> cog_bundle_version: 3
+<span>5</span> commands:
+<span>6</span>  secured_ping:
+<span>7</span>    executable: "/path/to/secured_ping.sh"
+<span>8</span>    documentation: ping <host> - send ICMP ECHO_REQUEST packets to network hosts
+<span>9</span>    rules:
+<span>10</span>    - "must have ping:read"
+          </pre>
+        </div>
+
+        <div class="col-sm-6">
+          <h6 class="text-muted text-uppercase">Easy development</h6>
+          <h3 class="m-t-0">Command Cog to do just about anything you would do in your CLI</h3>
+          <p class="lead m-b-md text-muted">If you view your chatbot as a kind of "shared command line", then commands are like the executables in your terminal. In fact, you might recognize several commands from the operable namespace above from your everyday terminal usage: echo, wc, sort, etc.</p>
+          <button class="btn btn-default btn-lg btn-borderless">
+            Read up on Commands
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--HIGHLIGHTED BLOCKS-->
+  <div class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Commands, Cog, and you.</h2>
+          <p class="lead">Cog runs on commands (not donuts). Here are a few example commands that are probably already part of your daily workflows.</p>
+      </div>
+        <div class="col-sm-6">
+              <img class="displayed badges" src="assets/img/pagerduty.png">
+              <h4>Work through incidents collaboratively right from chat.</h4>
+              <p><pre>!pagerduty:alert</pre>Customers complaining about the site is down? Announce this to your <code>#support</code> channel<hr>
+                <pre>!pagerduty:oncall</pre>Who's got the pager? This will tell you and the room immediately who is oncall.<hr>
+                <pre>!pagerduty:ack PHNRH53</pre>Allow users to ack an incident right from chat.</p>
+                <a href="#">View all PagerDuty's Bundle Commands</a>
+              </p>
+        </div>
+        <div class="col-sm-6">
+              <img class="displayed badges" src="assets/img/aws.png" alt="AWS Cloud Computing">
+              <h4>Control your AWS clouds with a large bay of fans.</h4>
+              <p><pre>!mist:ec2-create</pre>Create ec2 instances right from your chat client.<hr>
+                <pre>!mist:keypairs-list</pre>No idea what this command does...<hr>
+                <pre>!mist:vpc-list</pre>No idea what this command does...</p>
+                <a href="#">View all AWS's Bundle Commands</a>
+              </p>
+        </div>
+          <div class="col-sm-12 m-b-lg">
+            <p class="lead m-x-auto">Want to see more of what Cog can do? Check out the rest of Cog's <a href="http://docs.operable.io/v0.8/docs/list-of-command-bundles">bundles of commands.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="block block-inverse app-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 m-b-md">
+          <ul class="list-unstyled list-spaced">
+            <h2 class="text-uppercase footer">About</h2>
+            <li>
+              <p>We believe that DevOps is a team sport and in order to win more often, we created Cog.</p> <p>Cog is ChatOps turned up to 11. Built with powerful access control means that you can collaborate around even the most sensitive tasks with confidence. We focus on extensibility and adaptability, so your team can respond quickly to the unexpected, without sacrificing visiblity, automation or security. Have your cake and eat it too.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 m-b-md">
+          <h2 class="text-uppercase footer">Info</h2>
+          <a href="#">GitHub Repo</button></a>
+          <br><br>
+          <a href="#">Documentation</button></a>
+          <br><br>
+          <a href="#">Blog</button></a>
+        </ul>
+      </div>
+      <div class="col-sm-4 m-b-md">
+        <h2 class="text-uppercase footer">Join Us</h2>
+        <p>Join Cog Public Chat on Slack. There are currently
+        </p>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your@emailaddress.com">
+        </div>
+          <div class="coc">
+          <input type="checkbox" name="coc" value="1"> <small>I agree to the <a href="https://github.com/operable/cog/blob/master/CODE_OF_CONDUCT.md" target="_blank">Code of Conduct</small></a>.
+        </div>
+          <button class="btn btn-slack btn-lg btn-borderless text-uppercase">Get my Invite</button></form>
+        </div>
+      </div>
+      <hr>
+      <p class="text-muted">Copyright 2016 Operable Inc. All Rights Reserved.</p>
+    </div>
+  </div>
+  <!-- FOOTER END-->
+
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/toolkit.js"></script>
+<script src="assets/js/application.js"></script>
+</body>
+</html>
