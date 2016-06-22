@@ -1,5 +1,5 @@
 body {
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color:rgb(20, 20, 20);
 }
@@ -16,7 +16,7 @@ p.introcopy {
 
 @media (max-width: 767px) {
   p.introcopy {
-    font-size: 4rem;
+    font-size: 6rem;
   }
   }
 
@@ -48,7 +48,7 @@ a {
 
 a:hover {
   color:#369FCD;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-slack {
@@ -111,6 +111,10 @@ IMG.operablelogo {
   height: 100%;
 }
 
+IMG.footerlogo {
+  max-width: 100px;
+}
+
 .btn-primary:hover {
     color: #ffffff;
     background-color: #1E5775;
@@ -144,4 +148,16 @@ IMG.operablelogo {
 .app-code {
     width: 100%;
     padding:2rem;
+}
+
+.app-footer a {
+    color: #369FCD;
+}
+
+.app-footer a:hover {
+    color: #fff;
+}
+
+.app-footer {
+    padding: 25px 0;
 }
