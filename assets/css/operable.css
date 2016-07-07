@@ -161,3 +161,8 @@ IMG.footerlogo {
 .app-footer {
     padding: 25px 0;
 }
+
+.app-code-block {
+  background-color: #262F36;
+  overflow: hidden;
+}
