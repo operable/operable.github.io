@@ -168,8 +168,12 @@ IMG.footerlogo {
   overflow: hidden;
 }
 
-
-.navbar-nav .launch
+a.launch
 {
     color: #6bb6e6 !important;
+}
+
+a:hover.launch
+{
+    color: #81c7ec !important;
 }
