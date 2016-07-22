@@ -31,6 +31,7 @@ p.introcopy {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+
 a.navbar-brand {
   padding: 0px 0px;
 }
@@ -165,4 +166,10 @@ IMG.footerlogo {
 .app-code-block {
   background-color: #262F36;
   overflow: hidden;
+}
+
+
+.navbar-nav .launch
+{
+    color: #6bb6e6 !important;
 }
