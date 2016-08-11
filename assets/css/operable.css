@@ -68,8 +68,9 @@ a.navbar-brand {
 
 .app-navbar {
     font-family: 'Oswald', sans-serif;
-    font-weight: 200;
-    letter-spacing: .05em;
+    font-weight: 200 !important;
+    letter-spacing: .05em !important;
+    font-size: inherit;
 }
 
 a {
@@ -193,4 +194,8 @@ a:hover.launch
 /* gray block */
 .gray {
   background-color: #F4F5F6;
+}
+
+.app-ribbon {
+  background: #369FCD;
 }

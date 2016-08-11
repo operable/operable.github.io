@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="assets/css/toolkit-startup.css" rel="stylesheet">
   <link href="assets/css/application-startup.css" rel="stylesheet">
-  <link href="assets/css/operable.css" rel="stylesheet">
   <link href="assets/css/application-minimal.css" rel="stylesheet">
+  <link href="assets/css/operable.css" rel="stylesheet">
   <style>
   /* note: this is a hack for ios iframe for bootstrap themes shopify page */
   /* this chunk of css is not part of the toolkit :) */
@@ -37,7 +37,7 @@
   </style>
 </head>
 <body>
-<!--NAVIGATION START-->
+  <!--NAVIGATION START-->
   <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
     <ul class="nav nav-bordered nav-stacked">
       <li class="nav-header">Operable</li>
@@ -111,20 +111,20 @@
       </div>
     </nav>
   </div>
-<!-- NAVIGATION END -->
+  <!-- NAVIGATION END -->
 
-<!-- COG INTRODUCTION -->
+  <!-- COG INTRODUCTION -->
   <div class="block block-bordered-lg block-overflow-hidden p-b-0 app-block-design gray">
     <div class="container">
       <div class="row pos-r">
         <div class="col-lg-12">
-          <p class="introcopy">Cog</p>
+          <p class="introcopy">Continuous<br>DevOps <!--with Cog--></p>
         </div>
         <div class="col-sm-6 text-xs-center text-sm-left">
           <p class="lead">
-            We built Cog from the ground up specifically for ChatOps. Security, extensibility, and adaptability are core to this cute chatbot.
+            We built <strong>Cog</strong> from the ground up specifically for ChatOps. Security, extensibility, and adaptability are core to this cute chatbot. <br>Bring all of your DevOps workflow into chat so you can....
           </p>
-          <div class="row">
+          <!--<div class="row">
             <div class="col-xs-6">
               <div class="statcard">
                 <h1 class="statcard-number block-title">Unix</h1>
@@ -137,10 +137,10 @@
                 <span class="statcard-desc">Client agnostic</span>
               </div>
             </div>
-          </div>
+          </div>-->
           <div class="row">
-            <div class="col-sm-6 text-xs-center text-sm-left m-t">
-              <a href="http://docs.operable.io/docs/installation"><button class="btn btn-lg btn-primary btn-block">Get Cog</button></a>
+            <div class="col-sm-7 text-xs-center text-sm-left m-t">
+<a href="http://docs.operable.io/docs/installation"><button class="btn btn-primary btn-lg">Get Cog</button></a><a href="cog.html"><button class="btn btn-default btn-lg">More Information</button></a>
             </div>
           </div>
         </div>
@@ -150,17 +150,77 @@
       <img src="assets/img/cogright2.png" class="app-translate-50" data-transition="entrance">
     </div>
   </div>
-<!-- COG INTRODUCTION -->
+  <!-- COG INTRODUCTION -->
 
-<!-- COG EXTENSIBILITY -->
+  <!-- COG FEATURES -->
   <div class="block block-bordered-lg">
     <div class="container">
       <div class="row m-b-md">
         <div class="col-lg-6">
-          <img class="badges" src="http://placehold.it/450x200">
+          <img class="badges" src="http://placehold.it/450x800">
         </div>
         <div class="col-lg-6">
-          <h1>Extensible</h1>
+          <h1>Built for getting work done.</h1>
+          <h4 class="text-info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+          <hr>
+          <h3>Extensible</h3>
+          <p>
+            <ul>
+              <li>Build new bot commands in any language</li>
+              <li>Commands return structured data to allow for creative adaptation in pipelines</li>
+              <li>Built in templating allows the command response to be formatted for the current chat provider without embedding markup in your logic</li>
+            </ul>
+          </p>
+          <h3>Adaptable</h3>
+          <p>
+            <ul>
+              <li>Unix-style pipelines allow you to combine a series of simple commands to solve complex, unexpected problems</li>
+              <li>Support for output redirection lets you make sure everyone is in the loop</li>
+            </ul>
+
+          </p>
+          <h3>Secure</h3>
+          <p>
+            <ul>
+              <li>Fine-grained command permissions give you confidence in using chatops for even the most sensitive workflows</li>
+              <li>Users, Groups, and Roles allow you to organize access control for ease of management</li>
+              <li>Audit logging for commands and administrative functions let you keep track of everything that happens with Cog</li>
+            </ul>
+
+          </p>
+          <h3>Chat-provider agnostic</h3>
+          <p>
+            <ul>
+              <li>Current support for Slack with an early HipChat adapter in progress</li>
+            </ul>
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- COG FEATURES -->
+
+  <!-- BUNDLES -->
+  <div class="block app-ribbon p-y-lg">
+  <div class="container text-center">
+    <h2 class="m-t-0">Popular Bundles of Commands</h2>
+    <hr>
+    <a href="https://github.com/cogcmd/pagerduty"><img src="assets/img/pagerduty_sm.png"></a>
+    <a href="https://github.com/cogcmd/pagerduty"><img src="assets/img/pagerduty_sm.png"></a>
+    <a href="https://github.com/cogcmd/pagerduty"><img src="assets/img/pagerduty_sm.png"></a>
+    <a href="https://github.com/cogcmd/pagerduty"><img src="assets/img/pagerduty_sm.png"></a>
+  </div>
+</div>
+<!-- BUNDLES -->
+
+
+  <!-- YOUR WORKFLOW -->
+  <div class="block block-bordered-lg">
+    <div class="container">
+      <div class="row m-b-md">
+        <div class="col-lg-12">
+          <h1>Cog as part of your Workflow</h1>
           <p>
             <ul>
               <li>Build new bot commands in any language</li>
@@ -170,111 +230,53 @@
           </div>
         </div>
       </div>
-<!-- COG EXTENSIBILITY -->
+<!-- YOUR WORKFLOW -->
 
-<!-- COG ADAPTABILITY -->
-      <div class="block block-bordered-lg app-code-block block-inverse">
-        <div class="container">
-          <div class="row m-b-md">
-            <div class="col-lg-6">
-              <img class="badges" src="http://placehold.it/450x200">
-            </div>
-            <div class="col-lg-6">
-              <h1>Adaptable</h1>
-              <p>
-                <ul>
-                  <li>Unix-style pipelines allow you to combine a series of simple commands to solve complex, unexpected problems</li>
-                  <li>Support for output redirection lets you make sure everyone is in the loop</li>
-                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-<!-- COG ADAPTABILITY -->
 
-<!-- COG EXTENSIBILITY -->
-          <div class="block block-bordered-lg">
-            <div class="container">
-              <div class="row m-b-md">
-                <div class="col-lg-6">
-                  <img class="badges" src="http://placehold.it/450x200">
-                </div>
-                <div class="col-lg-6">
-                  <h1>Secure</h1>
-                  <p>
-                    <ul>
-                      <li>Fine-grained command permissions give you confidence in using chatops for even the most sensitive workflows</li>
-                      <li>Users, Groups, and Roles allow you to organize access control for ease of management</li>
-                      <li>Audit logging for commands and administrative functions let you keep track of everything that happens with Cog</li>
-                    </p>
-                    </div>
+
+<!-- FOOTER -->
+            <div class="block block-inverse app-footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-3 m-b-md">
+                    <h3 class="text-uppercase footer"></h3>
+                    <img class="displayed footerlogo" src="assets/img/logomark.png">
                   </div>
-                </div>
-              </div>
-<!-- COG EXTENSIBILITY -->
-
-<!-- COG EXTENSIBILITY -->
-              <div class="block block-bordered-lg">
-                <div class="container">
-                  <div class="row m-b-md">
-                    <div class="col-lg-6">
-                      <img class="badges" src="http://placehold.it/450x200">
-                    </div>
-                    <div class="col-lg-6">
-                      <h1>Chat-provider agnostic</h1>
-                      <p>
-                        <ul>
-                          <li>Current support for Slack with an early HipChat adapter in progress</li>
+                  <div class="col-sm-3 m-b-md">
+                    <h3 class="text-uppercase footer">Company</h3>
+                    <ul class="list-unstyled list-spaced">
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="http://blog.operable.io">Blog</a></li>
+                      <li><a href="about.html">Brand</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="about.html">Press</a></li>
+                      <li><a href="http://eepurl.com/b6TBMj">Newsletter</a></li>
+                      <li><a href="http://twitter.com/operableinc"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-3 m-b-md">
+                    <h3 class="text-uppercase footer">Product</h3>
+                    <ul class="list-unstyled list-spaced">
+                      <li><a href="cog.html">Cog</button></a></li>
+                      <li><a href="http://docs.operable.io/docs">Documentation</button></a></li>
+                      <li><a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</button></a></li>
+                      <ul>
+                      </div>
+                      <div class="col-sm-3 m-b-md">
+                        <h3 class="text-uppercase footer">Chat</h3>
+                        <p>Join us in our public Cog chat channel on Slack.
                         </p>
-                        </div>
+                        <a href="http://slack.operable.io/"><button class="btn btn-slack btn-lg btn-borderless text-uppercase">Chat with us on <i class="fa fa-slack" aria-hidden="true"></i> Slack</button></a>
                       </div>
                     </div>
+                    <hr>
+                    <p class="text-muted text-right">Copyright &#169 2016 Operable Inc.</p>
                   </div>
-<!-- COG EXTENSIBILITY -->
-
-                  <!-- FOOTER -->
-                  <div class="block block-inverse app-footer">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-sm-3 m-b-md">
-                          <h3 class="text-uppercase footer"></h3>
-                          <img class="displayed footerlogo" src="assets/img/logomark.png">
-                        </div>
-                        <div class="col-sm-3 m-b-md">
-                          <h3 class="text-uppercase footer">Company</h3>
-                          <ul class="list-unstyled list-spaced">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="http://blog.operable.io">Blog</a></li>
-                            <li><a href="about.html">Brand</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="about.html">Press</a></li>
-                            <li><a href="http://eepurl.com/b6TBMj">Newsletter</a></li>
-                            <li><a href="http://twitter.com/operableinc"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-sm-3 m-b-md">
-                          <h3 class="text-uppercase footer">Product</h3>
-                          <ul class="list-unstyled list-spaced">
-                            <li><a href="cog.html">Cog</button></a></li>
-                            <li><a href="http://docs.operable.io/docs">Documentation</button></a></li>
-                            <li><a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</button></a></li>
-                            <ul>
-                        </div>
-                        <div class="col-sm-3 m-b-md">
-                          <h3 class="text-uppercase footer">Chat</h3>
-                          <p>Join us in our public Cog chat channel on Slack.
-                          </p>
-                          <a href="http://slack.operable.io/"><button class="btn btn-slack btn-lg btn-borderless text-uppercase">Chat with us on <i class="fa fa-slack" aria-hidden="true"></i> Slack</button></a>
-                        </div>
-                      </div>
-                      <hr>
-                      <p class="text-muted text-right">Copyright &#169 2016 Operable Inc.</p>
-                    </div>
-                  </div>
-                  <!-- FOOTER END-->
-                </div> <!-- BODY END-->
-                <script src="assets/js/jquery.min.js"></script>
-                <script src="assets/js/toolkit.js"></script>
-                <script src="assets/js/application.js"></script>
-              </body>
-              </html>
+                </div>
+                <!-- FOOTER END-->
+              </div> <!-- BODY END-->
+              <script src="assets/js/jquery.min.js"></script>
+              <script src="assets/js/toolkit.js"></script>
+              <script src="assets/js/application.js"></script>
+            </body>
+            </html>
