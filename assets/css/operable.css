@@ -103,7 +103,7 @@ img-logo {
 }
 
 p.introsub, h4.introsub{
-  color: white;
+  color: black;
 }
 
 p.introsub{
@@ -130,11 +130,11 @@ IMG.displayed {
     margin-right: auto
   }
 
-IMG.badges {
+IMG.wide {
   width: 100%;
 }
 
-IMG.operablelogo {
+IMG.tall {
   height: 100%;
 }
 
