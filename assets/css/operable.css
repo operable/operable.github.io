@@ -4,6 +4,18 @@ body {
   color:rgb(20, 20, 20);
 }
 
+/* COPY */
+
+a {
+    color: #369FCD;
+    text-decoration: none;
+  }
+
+a:hover {
+  color:#369FCD;
+  text-decoration: none;
+}
+
 p.introcopy {
   line-height: 100%;
   font-family: 'Oswald', sans-serif;
@@ -16,8 +28,41 @@ p.introcopy {
 
 @media (max-width: 767px) {
   p.introcopy {
-    font-size: 6rem;
+    font-size: 4rem;
   }
+  }
+
+  .h1.introcopy,
+  h1.introcopy {
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  p.introsub, h4.introsub{
+    color: black;
+  }
+
+  p.introsub{
+    font-size: 2.5rem;
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    text-transform: none;
+  }
+
+  @media (max-width: 767px) {
+    p.introsub {
+      font-size: 2.5rem;
+    }
+    }
+
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+      font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 200;
+      line-height: 1.2;
+      color: #2d3238;
+  }
+
+  h2.footer {
+    font-size: 4.2rem;
   }
 
 /* BUTTONS */
@@ -73,17 +118,7 @@ a.navbar-brand {
     font-size: inherit;
 }
 
-a {
-    color: #369FCD;
-    text-decoration: none;
-  }
-
-a:hover {
-  color:#369FCD;
-  text-decoration: none;
-}
-
-
+/* IMAGES */
 img-logo {
   max-width: 100px;
 }
@@ -96,32 +131,6 @@ img-logo {
   display: block;
   max-width: 40%;
   height: auto;
-}
-
-::selection {
-    background: #6bb6e6;
-}
-
-p.introsub, h4.introsub{
-  color: black;
-}
-
-p.introsub{
-  font-size: 3rem;
-  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 200;
-    line-height: 1.2;
-    color: #2d3238;
-}
-
-h2.footer {
-  font-size: 4.2rem;
 }
 
 IMG.displayed {
@@ -196,6 +205,15 @@ a:hover.launch
   background-color: #F4F5F6;
 }
 
+/* gray block */
+.white {
+  background-color: white;
+}
+
 .app-ribbon {
   background: #369FCD;
+}
+
+::selection {
+    background: #6bb6e6;
 }
