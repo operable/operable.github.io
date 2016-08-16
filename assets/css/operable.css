@@ -61,8 +61,9 @@ p.introcopy {
       color: #2d3238;
   }
 
-  h2.footer {
-    font-size: 4.2rem;
+  h3.footer {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, .7);
   }
 
 /* BUTTONS */
@@ -205,7 +206,7 @@ a:hover.launch
   background-color: #F4F5F6;
 }
 
-/* gray block */
+/* misc */
 .white {
   background-color: white;
 }
@@ -216,4 +217,32 @@ a:hover.launch
 
 ::selection {
     background: #6bb6e6;
+}
+
+/* transitions */
+.panel {
+    z-index:0;
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+
+.block-inverse {
+  background-color: #2681A3;
+  color: rgba(255, 255, 255, 1);
+}
+
+.block-footer {
+  background-color: #363636;
+  color: white;
+}
+
+.backgroundstripe{
+   background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVQYV2NkIAKcOHHCmJGQOpAiCwuLs3gVwhSBDMOpEFkRToXoirAqxKYIQyEuRSgK8SmCKySkCKyQGEUghQDDPiaWiq2pNAAAAABJRU5ErkJggg==
+    ) repeat;
 }
