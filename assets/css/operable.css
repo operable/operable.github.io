@@ -20,8 +20,8 @@ p.introcopy {
   line-height: 100%;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 8rem;
-  color: #369FCD;
+  font-size: 5vw;
+  color: #2681A3;
   text-transform: uppercase;
   padding: 2rem 0;
 }
@@ -216,7 +216,7 @@ a:hover.launch
 }
 
 ::selection {
-    background: #6bb6e6;
+    background: #df6be6;
 }
 
 /* transitions */
@@ -241,8 +241,16 @@ a:hover.launch
   color: white;
 }
 
-.backgroundstripe{
-   background:url(
-data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVQYV2NkIAKcOHHCmJGQOpAiCwuLs3gVwhSBDMOpEFkRToXoirAqxKYIQyEuRSgK8SmCKySkCKyQGEUghQDDPiaWiq2pNAAAAABJRU5ErkJggg==
-    ) repeat;
+.image-left {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+.itemclear {
+  clear:left;
+}
+
+.itemlist {
+  margin-top: -1em;
+  margin-bottom: -1em;
 }
