@@ -144,6 +144,13 @@ IMG.wide {
   width: 100%;
 }
 
+IMG.half {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 IMG.tall {
   height: 100%;
 }
