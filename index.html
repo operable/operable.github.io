@@ -9,7 +9,7 @@
   <meta name="author" content="Operable, Inc.">
 
   <title>
-    Operable: ChatOps with Hosted Cog
+    Cog + ChatOps = Continuous DevOps
   </title>
 
   <!-- CSS
@@ -97,107 +97,143 @@
     <div class="block app-header" style=";">
 
 
-    <nav class="navbar-default navbar-fixed-top navbar-padded app-navbar p-t-md">
+      <nav class="navbar-default navbar-fixed-top navbar-padded app-navbar p-t-md">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed p-x-0"
+            data-target="#stage" data-toggle="stage" data-distance="-250">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img class="tall" src="assets/img/logobb.png">
+          </a>
+        </div>
+        <div class="navbar-collapse collapse text-uppercase">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://docs.operable.io/docs">Docs</a>
+            </li>
+            <li>
+              <a href="http://blog.operable.io">Blog</a>
+            </li>
+            <li>
+              <a href="mailto:info@operable.io">Contact</a>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <!--NAVIGATION END-->
+
+    <!--CONTENT START-->
+
+    <!-- COG INTRODUCTION -->
+    <div class="block-secondar">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed p-x-0"
-          data-target="#stage" data-toggle="stage" data-distance="-250">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          <img class="tall" src="assets/img/logobb.png">
-        </a>
-      </div>
-      <div class="navbar-collapse collapse text-uppercase">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="http://docs.operable.io/docs">Docs</a>
-          </li>
-          <li>
-            <a href="http://blog.operable.io">Blog</a>
-          </li>
-          <li>
-            <a href="mailto:info@operable.io">Contact</a>
-          </li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav>
+        <div class="row">
+          <div class="col-lg-6 m-t-md">
+            <img class="m-b wide" src="assets/img/chatopsdevops2.svg">
+            <div class="text-right"><a href="http://docs.operable.io/docs/installation"><button class="btn btn-primary btn-lg">Get Cog</button></a> <a href="http://docs.operable.io/docs/introducing-cog"><button class="btn btn-default btn-lg">More Information</button></a></div>
+          </div>
+          <div class="col-sm-6 text-xs-center text-sm-left">
+            <img src="assets/img/monitoring500.svg" class="wide p-b-md";>
 
 
-  <!--NAVIGATION END-->
-
-  <!--CONTENT START-->
-
-  <!-- COG INTRODUCTION -->
-<div class="block-secondar">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 m-t-md">
-          <img class="m-b wide" src="assets/img/chatopsdevops2.svg">
-          <div class="text-right"><a href="http://docs.operable.io/docs/installation"><button class="btn btn-primary btn-lg">Get Cog</button></a> <a href="http://docs.operable.io/docs/introducing-cog"><button class="btn btn-default btn-lg">More Information</button></a></div>
-        </div>
-        <div class="col-sm-6 text-xs-center text-sm-left">
-          <img src="assets/img/monitoring500.svg" class="wide p-b-md";>
-
-
+          </div>
         </div>
       </div>
     </div>
+
   </div>
-
-</div>
   <!-- COG INTRODUCTION -->
 
   <!--STORIES-->
-  <div class="block-secondary m-b-md p-t-md app-block-marketing-grid gray">
-    <div class="container text-center">
-      <div class="row m-b-lg">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+  <div class="block-secondary p-t-md gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
           <h6 class="text-muted text-uppercase">built for real work</h6>
-          <h3  class="m-t-0 m-b">Cog adds ChatOps to your DevOps workflow.</h3>
+          <h2  class="m-t-0 m-b"><strong>Cog adds ChatOps to your DevOps workflow.</strong></h2>
+          <hr class="alert-dark">
         </div>
       </div>
-      <div class="row app-marketing-grid">
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="assets/img/icons/server_error.svg">
-          <h3 class="m-t-0 m-b-0">Deployment is step one.</h3>
+      <div class="row p-t-md p-b-md text-center">
+        <div class="col-sm-4"><img src="assets/img/icons/server_error.svg"></div>
+        <div class="col-lg-8 text-left"><h3>Deployment is step one.</h3>
           <p>DevOps shouldn't stop when your application gets deployed. ChatOps helps you automate all of your workflow so that you can use the same tools to solve problems that you use to develop and deploy your applications and infrastructure every day. And with Cog, it's easy to build new workflows using whatever programming language you want.</p>
         </div>
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="assets/img/icons/pager.svg">
-          <h3 class="m-t-0 m-b-0">It's not safe to go alone...</h3>
-        <p>Leave the heroes to the comic books, DevOps is all about teamwork. ChatOps makes your work visible and collaboration effortless. Product managers can see when a new build is deployed, your support team can see when you have a production problem, and your engineering team can see the steps you're taking to troubleshoot. All in the same chat window you already use to collaborate every day.</p>
-        </div>
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="assets/img/icons/celebrate.svg">
-          <h3 class="m-t-0 m-b-0">Victory!</h3>
-            <p>Cog was built for real work, not cat pictures. Strong access controls and audit logging let you automate even the most sensitive tasks, securely. Unix style command pipelines let you combine Cog commands on the fly to solve new problems without having to write new code. And that's just the beginning.</p>
+      </div>
+    </div>
+  </div>
+  <div class="block-secondary gray2">
+    <div class="container text-center">
+      <div class="row p-t-md p-b-md">
+        <div class="col-sm-4"><img src="assets/img/icons/pager.svg"></div>
+        <div class="col-lg-8 text-left"><h3>It's not safe to go alone...</h3>
+          <p>Leave the heroes to the comic books, DevOps is all about teamwork. ChatOps makes your work visible and collaboration effortless. Product managers can see when a new build is deployed, your support team can see when you have a production problem, and your engineering team can see the steps you're taking to troubleshoot. All in the same chat window you already use to collaborate every day.</p>
         </div>
       </div>
     </div>
   </div>
-  <!--STORIES-->
+  <div class="block-secondary gray3">
+    <div class="container text-center">
+      <div class="row p-t-md p-b-md">
+        <div class="col-sm-4"><img src="assets/img/icons/celebrate.svg"></div>
+        <div class="col-lg-8 text-left"><h3>Victory!</h3>
+          <p>Cog was built for real work, not cat pictures. Strong access controls and audit logging let you automate even the most sensitive tasks, securely. Unix style command pipelines let you combine Cog commands on the fly to solve new problems without having to write new code. And that's just the beginning.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <!--TEAM COLLABORATION-->
-  <div class="block-secondary p-t-lg p-b-lg block-inverse">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          <h6 class="text-uppercase">Team Collaboration</h6>
-          <h3 class="m-t-0">Take collaborative action in chat.</h3>
-          <p>With Bundles of commands, you can do Now you have the ability to build, research, provision, and make things happen right in chat. No more lone wolf solution finding missions. Discover, learn, and create solutions together with your teammates.</p>
-        </div>
-        <div class="col-sm-9">
-          <img class="wide" src="assets/img/cog1.gif">
-        </div>
+  <!--<div class="row app-marketing-grid">
+  <div class="col-sm-4 p-x-md m-b-lg">
+  <img class="m-b" src="assets/img/icons/server_error.svg">
+  <h3 class="m-t-0 m-b-0">Deployment is step one.</h3>
+  <p>DevOps shouldn't stop when your application gets deployed. ChatOps helps you automate all of your workflow so that you can use the same tools to solve problems that you use to develop and deploy your applications and infrastructure every day. And with Cog, it's easy to build new workflows using whatever programming language you want.</p>
+</div>
+<div class="col-sm-4 p-x-md m-b-lg">
+<img class="m-b" src="assets/img/icons/pager.svg">
+<h3 class="m-t-0 m-b-0">It's not safe to go alone...</h3>
+<p>Leave the heroes to the comic books, DevOps is all about teamwork. ChatOps makes your work visible and collaboration effortless. Product managers can see when a new build is deployed, your support team can see when you have a production problem, and your engineering team can see the steps you're taking to troubleshoot. All in the same chat window you already use to collaborate every day.</p>
+</div>
+<div class="col-sm-4 p-x-md m-b-lg">
+<img class="m-b" src="assets/img/icons/celebrate.svg">
+<h3 class="m-t-0 m-b-0">Victory!</h3>
+<p>Cog was built for real work, not cat pictures. Strong access controls and audit logging let you automate even the most sensitive tasks, securely. Unix style command pipelines let you combine Cog commands on the fly to solve new problems without having to write new code. And that's just the beginning.</p>
+</div>
+<div class="itemclear"></div>
+<div class="itemlist m-b-md text-left"><img class="image-left m-r" src="assets/img/icons/pager.svg">
+<h3>It's not safe to go alone...</h3>
+<p>Leave the heroes to the comic books, DevOps is all about teamwork. ChatOps makes your work visible and collaboration effortless. Product managers can see when a new build is deployed, your support team can see when you have a production problem, and your engineering team can see the steps you're taking to troubleshoot. All in the same chat window you already use to collaborate every day.</p>
+</div>
+</div>
+</div>
+</div>
+</div>-->
+<!--STORIES-->
+
+<!--TEAM COLLABORATION-->
+<div class="block-secondary p-t-lg p-b-lg block-inverse">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h6 class="text-uppercase">Team Collaboration</h6>
+        <h3 class="m-t-0">Take collaborative action in chat.</h3>
+        <p>Cog brings your DevOps workflow right into chat. Choose from a growing selection of existing <a href="https://github.com/cogcmd/" class="inverse">command bundles</a> or easily <a href="http://docs.operable.io/docs/building-command-bundles">build your own</a> to make your work collaborative by default. Cog makes access control, audit logging, and bundle installation a breeze so you can focus on your real work.</p>
+      </div>
+      <div class="col-sm-9">
+        <img class="wide" src="assets/img/cog1.gif">
       </div>
     </div>
   </div>
-  <!--TEAM COLLABORATION-->
+</div>
+<!--TEAM COLLABORATION-->
 
 
 
@@ -206,8 +242,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-9">
-            <img class="wide m-t-0" src="assets/img/hostedcog_bundle.png">
-        </div>
+        <img class="wide m-t-0" src="assets/img/hostedcog_bundle.png">
+      </div>
       <div class="col-sm-3">
         <h6 class="text-uppercase">Coming Soon!</h6>
         <h3 class="m-t-0">Cog Console<br>User Interface</h3>
@@ -260,12 +296,12 @@
         <p class="text-muted text-xs-center">Copyright &#169 2016 Operable Inc.</p>
       </div>
     </div>
-  <!-- FOOTER END-->
-</div>
+    <!-- FOOTER END-->
+  </div>
 
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/toolkit.js"></script>
-<script src="assets/js/application.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/toolkit.js"></script>
+  <script src="assets/js/application.js"></script>
 </body>
 </html>

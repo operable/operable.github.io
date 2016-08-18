@@ -16,6 +16,27 @@ a:hover {
   text-decoration: none;
 }
 
+a.inverse {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+a.inverse:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+a.launch
+{
+    color: #6bb6e6 !important;
+}
+
+a:hover.launch
+{
+    color: #81c7ec !important;
+}
+
 p.introcopy {
   line-height: 100%;
   font-family: 'Oswald', sans-serif;
@@ -198,15 +219,6 @@ IMG.footerlogo {
   overflow: hidden;
 }
 
-a.launch
-{
-    color: #6bb6e6 !important;
-}
-
-a:hover.launch
-{
-    color: #81c7ec !important;
-}
 
 /* gray block */
 .gray {
@@ -260,4 +272,12 @@ a:hover.launch
 .itemlist {
   margin-top: -1em;
   margin-bottom: -1em;
+}
+
+.gray2 {
+  background-color: #ecedee;
+}
+
+.gray3 {
+  background-color: #e1e3e4;
 }
