@@ -38,32 +38,51 @@ a:hover.launch
     color: #81c7ec !important;
 }
 
-p.introcopy {
+h1.introcopy {
   line-height: 100%;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 5vw;
+  font-size: 4.5vw;
   color: #2681A3;
   text-transform: uppercase;
-  padding: 2rem 0;
+  padding:  0;
+  text-align: right;
+}
+
+#herogray {
+  color: #9B9B9B;
+}
+
+#herored {
+  color: #D0021B;
+  float: left;
+}
+
+#herodarkblue {
+  clear: both;
+  color: #1E5775;
 }
 
 @media (max-width: 767px) {
-  p.introcopy {
-    font-size: 4rem;
-  }
-  }
-
-  .h1.introcopy,
   h1.introcopy {
-    font-family: 'Oswald', sans-serif !important;
+    font-size: 15vw;
   }
+  }
+  @media (max-width: 992px) {
+    h1.introcopy {
+    font-size: 7vw;
+}
+}
 
-  p.introsub, h4.introsub{
+h1.crumb {
+  text-align: left;
+}
+
+  h2.introsub, h4.introsub{
     color: black;
   }
 
-  p.introsub{
+  h2.introsub{
     font-size: 2.5rem;
     font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.2;
@@ -75,6 +94,8 @@ p.introcopy {
       font-size: 2.5rem;
     }
     }
+
+
 
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -236,7 +257,7 @@ IMG.footerlogo {
 }
 
 ::selection {
-    background: #df6be6;
+    background: rgba(223, 107, 230, 0.5);
 }
 
 /* transitions */
@@ -281,4 +302,10 @@ IMG.footerlogo {
 
 .gray3 {
   background-color: #e1e3e4;
+}
+
+hr.equation {
+  border: 0;
+  height: 3px;
+  background: #333;
 }
