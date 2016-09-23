@@ -73,6 +73,10 @@ h1.crumb {
   text-align: left;
 }
 
+h1.followup {
+  text-align: center;
+}
+
   h2.introsub, h4.introsub{
     color: black;
   }
@@ -245,10 +249,6 @@ IMG.footerlogo {
 /* misc */
 .white {
   background-color: white;
-}
-
-.cogspace {
-  background-image: url(/assets/img/cogspace.svg);
 }
 
 .app-ribbon {
