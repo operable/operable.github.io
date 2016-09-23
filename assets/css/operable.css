@@ -247,6 +247,10 @@ IMG.footerlogo {
   background-color: white;
 }
 
+.cogspace {
+  background-image: url(/assets/img/cogspace.svg);
+}
+
 .app-ribbon {
   background: #369FCD;
 }
@@ -303,4 +307,13 @@ hr.equation {
   border: 0;
   height: 3px;
   background: #333;
+}
+
+/* Table width */
+table {
+    width:100%;
+}
+
+td {
+width:25%;
 }

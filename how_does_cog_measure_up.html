@@ -64,6 +64,9 @@
         <a href="index.html">Home</a>
       </li>
       <li>
+        <a href="how_does_cog_measure_up.html">Cog vs Others</a>
+      </li>
+      <li>
         <a href="http://blog.operable.io">Blog</a>
       </li>
       <li>
@@ -115,6 +118,9 @@
         <div class="navbar-collapse collapse text-uppercase">
           <ul class="nav navbar-nav navbar-right">
             <li>
+              <a href="how_does_cog_measure_up.html">Cog vs Others</a>
+            </li>
+            <li>
               <a href="http://docs.operable.io/docs">Docs</a>
             </li>
             <li>
@@ -129,11 +135,15 @@
     </nav>
     <!--NAVIGATION END-->
 
-    <div class="secondary_block">
+    <div class="secondary_block gray2">
       <div class="container">
         <div class="row">
-          <h1>ChatOps ChatBot, what's the diff?</h1>
-          <p>Not all ChatOps solutions are the same. Figure out which is best for you and your team.</p>
+          <div class="col-lg-12">
+            <h1 class="introcopy crumb">Cog vs Others</h1>
+            <h3 class="text-info">How does Cog measure up?</h3>
+            <hr>
+            <p>ChatOps solutions like Cog vary in how they are built, what chat platforms they work on, and how they handle security. Here is how Cog measures up to Hubot and Lita. ErrBot and YetiBot are soon to follow. This matrix is a work in progress so if there is additional information you are interested in seeing compared OR if there are corrections that need to be made, please <a href="mailto:info@operable.io">let us know</a>.
+          </div>
           <table class="table table-responsive table-hover">
             <thead>
               <tr>
@@ -175,31 +185,31 @@
                 <td></td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="How does the user interact with the ChatBot?">Interaction Model</a></td>
+                <td>Interaction Model</td>
                 <td>Unix CLI</td>
                 <td>Conversational</td>
                 <td>Conversational</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Ability to use pipelines when typing out a command for the chatbot to interpret.">Pipeline Support</a></td>
+                <td>Pipeline Support</td>
                 <td>Yes</td>
                 <td>No</td>
                 <td>No</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="What languages can the chatbot consume?">Supported Languages</a></td>
+                <td>Supported Languages</td>
                 <td>Any</td>
                 <td>Coffeescript, JS</td>
                 <td>Ruby</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Can the bot be triggers by webhooks?">Webhook Triggers</a></td>
+                <td>Webhook Triggers</td>
                 <td>Yes</td>
                 <td>Yes</td>
                 <td>Yes</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Meh, I don't know what this means...">Presense-based Events</a></td>
+                <td>Presence-based Events</td>
                 <td>No</td>
                 <td>Yes</td>
                 <td>Yes</td>
@@ -211,25 +221,25 @@
                 <td></td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Command Isolation</a></td>
+                <td>Command Isolation</td>
                 <td>Isolated</td>
                 <td>Shared</td>
                 <td>Shared</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Command Execution</a></td>
+                <td>Command Execution</td>
                 <td>Separate process; Docker Container</td>
                 <td>Embedded</td>
                 <td>Embedded</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Fine Grained ACLs</a></td>
+                <td>Fine Grained ACLs</td>
                 <td>Yes</td>
                 <td>No</td>
                 <td>No</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Audit Log</a></td>
+                <td>Audit Log</td>
                 <td>Yes</td>
                 <td>No</td>
                 <td>No</td>
@@ -241,31 +251,47 @@
                 <td></td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">HA Command Execution</a></td>
+                <td>HA Command Execution</td>
                 <td>Yes</td>
                 <td>No</td>
                 <td>No</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Command Deployment</a></td>
+                <td>Command Deployment</td>
                 <td>Docker image; Config Mgmt</td>
                 <td>npm package; script file</td>
                 <td>Ruby gem; script file</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Data Storage</a></td>
+                <td>Data Storage</td>
                 <td>Postgres</td>
                 <td>???</td>
                 <td>Redis (default)</td>
               </tr>
               <tr>
-                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Management Interface</a></td>
+                <td>Management Interface</td>
                 <td>Chat, CLI (cogctl), REST APIs</td>
                 <td>???</td>
                 <td>API</td>
               </tr>
             </tbody>
           </table>
+          <hr>
+        </div>
+      </div>
+    </div>
+      <div class="block-secondary">
+        <div class="container ">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Install Cog + Play</h1>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <a href="http://docs.operable.io/docs/installation"><button class="btn btn-primary btn-lg">Install Cog</button></a>
+        </div>
+        <div class="col-lg-6">
+          <a href="http://docs.operable.io/docs/introducing-cog"><button class="btn btn-default btn-lg">Cog Introduction</button></a>
         </div>
       </div>
     </div>
@@ -285,6 +311,7 @@
           <h3 class="text-uppercase footer">Company</h3>
           <ul class="list-unstyled list-spaced">
             <li><a href="index.html">Home</a></li>
+            <li><a href="how_does_cog_measure_up.html">Cog vs Others</a></li>
             <li><a href="http://blog.operable.io">Blog</a></li>
             <li><a href="branding.html">Branding</a></li>
             <li><a href="mailto:info@operable.io">Contact</a></li>
