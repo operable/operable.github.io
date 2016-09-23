@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Operable, makers of Cog, the ChatOps platform you've been looking for.">
+  <meta name="keywords" content="Operable, devops, chatops, chatbot, slackbot">
+  <meta name="author" content="Operable, Inc.">
+
+  <title>
+    Operable + Cog Branding
+  </title>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+  <link href="assets/css/application-startup.css" rel="stylesheet">
+  <link href="assets/css/operable.css" rel="stylesheet">
+  <!-- Google Analytics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73327436-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+
+  <style>
+  /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+  /* this chunk of css is not part of the toolkit :) */
+  /* …curses ios, etc… */
+  @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+      width: 1px;
+      min-width: 100%;
+      *width: 100%;
+    }
+    #stage {
+      height: 1px;
+      overflow: auto;
+      min-height: 100vh;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  </style>
+</head>
+
+
+<body>
+
+  <!--NAVIGATION START-->
+  <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+    <ul class="nav nav-bordered nav-stacked">
+      <li class="nav-header">Operable</li>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="http://blog.operable.io">Blog</a>
+      </li>
+      <li>
+        <a href="branding.html">Branding</a>
+      </li>
+
+      <li>
+        <a href="mailto:info@operable.io">Contact</a>
+      </li>
+      <li>
+        <a href="http://eepurl.com/b6TBMj"><i class="fa fa-envelope" aria-hidden="true"></i> Newsletter Sign Up</a>
+      </li>
+      <li>
+        <a href="http://twitter.com/operableinc"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+      </li>
+      <li class="nav-divider"></li>
+      <li class="nav-header">Product</li>
+      <li>
+        <a href="http://docs.operable.io/docs">Documentation</a>
+      </li>
+      <li>
+        <a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</button></a>
+      </li>
+      <li>
+        <a href="http://slack.operable.io/"><i class="fa fa-slack" aria-hidden="true"></i> Slack</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="stage" id="stage">
+
+    <div class="block app-header">
+
+
+      <nav class="navbar-default navbar-fixed-top navbar-padded app-navbar p-t-md">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed p-x-0"
+            data-target="#stage" data-toggle="stage" data-distance="-250">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img class="tall" src="assets/img/logobb.png">
+          </a>
+        </div>
+        <div class="navbar-collapse collapse text-uppercase">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://docs.operable.io/docs">Docs</a>
+            </li>
+            <li>
+              <a href="http://blog.operable.io">Blog</a>
+            </li>
+            <li>
+              <a href="mailto:info@operable.io">Contact</a>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!--NAVIGATION END-->
+
+    <div class="secondary_block">
+      <div class="container">
+        <div class="row">
+          <h1>ChatOps ChatBot, what's the diff?</h1>
+          <p>Not all ChatOps solutions are the same. Figure out which is best for you and your team.</p>
+          <table class="table table-responsive table-hover">
+            <thead>
+              <tr>
+                <th></th>
+                <th><h3>Cog</h3></th>
+                <th><h3>Hubot</h3></th>
+                <th><h3>Lita</h3></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><h3>Connectivity</h3></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Slack</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>HipChat</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>IRC</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td><h3>Extensibility</h3></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="How does the user interact with the ChatBot?">Interaction Model</a></td>
+                <td>Unix CLI</td>
+                <td>Conversational</td>
+                <td>Conversational</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Ability to use pipelines when typing out a command for the chatbot to interpret.">Pipeline Support</a></td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="What languages can the chatbot consume?">Supported Languages</a></td>
+                <td>Any</td>
+                <td>Coffeescript, JS</td>
+                <td>Ruby</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Can the bot be triggers by webhooks?">Webhook Triggers</a></td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Meh, I don't know what this means...">Presense-based Events</a></td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td><h3>Security</h3></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Command Isolation</a></td>
+                <td>Isolated</td>
+                <td>Shared</td>
+                <td>Shared</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Command Execution</a></td>
+                <td>Separate process; Docker Container</td>
+                <td>Embedded</td>
+                <td>Embedded</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Fine Grained ACLs</a></td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Audit Log</a></td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td><h3>Operablility</h3></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">HA Command Execution</a></td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Command Deployment</a></td>
+                <td>Docker image; Config Mgmt</td>
+                <td>npm package; script file</td>
+                <td>Ruby gem; script file</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Data Storage</a></td>
+                <td>Postgres</td>
+                <td>???</td>
+                <td>Redis (default)</td>
+              </tr>
+              <tr>
+                <td><a href="#" data-toggle="tooltip" title="Lorem ipsum!">Management Interface</a></td>
+                <td>Chat, CLI (cogctl), REST APIs</td>
+                <td>???</td>
+                <td>API</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="block-secondary block-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 m-b-md">
+          <h3 class="text-uppercase footer">About Cog</h3>
+          <p>We believe that DevOps is a team sport and in order to <strong>win more often</strong>, we created Cog.</p>
+
+          <p>Cog is ChatOps turned up to 11. Built with powerful access control means that you can collaborate around even the most sensitive tasks with confidence. We focus on extensibility and adaptability, so your team can respond quickly to the unexpected, without sacrificing visibility, automation or security. Have your cake and eat it too.</p>
+        </div>
+        <div class="col-sm-4 m-b-md">
+          <h3 class="text-uppercase footer">Company</h3>
+          <ul class="list-unstyled list-spaced">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="http://blog.operable.io">Blog</a></li>
+            <li><a href="branding.html">Branding</a></li>
+            <li><a href="mailto:info@operable.io">Contact</a></li>
+            <li><a href="http://eepurl.com/b6TBMj">Newsletter Sign Up</a></li>
+            <li><a href="http://twitter.com/operableinc"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+            <li><a href="https://www.iubenda.com/privacy-policy/7789404">Privacy Policy</a></li>
+            <li><a href="terms.html">Hosted Terms</a></li>
+          </ul>
+          <h3 class="text-uppercase footer">Product</h3>
+          <ul class="list-unstyled list-spaced">
+            <li><a href="http://docs.operable.io/docs">Documentation</button></a></li>
+            <li><a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</button></a></li>
+            <ul>
+            </div>
+            <div class="col-sm-4 m-b-md">
+              <h3 class="text-uppercase footer">Chat</h3>
+              <p>Join us in our public Cog chat channel on Slack.
+              </p>
+              <a href="http://slack.operable.io/"><button class="btn btn-slack btn-lg btn-borderless text-uppercase">Chat with us on <i class="fa fa-slack" aria-hidden="true"></i> Slack</button></a>
+              <h3 class="text-uppercase footer">Email</h3>
+              <p>When we hit milestones we harness the power of electronic email! Email will be seldom but VERY important stuff.
+              </p>
+              <div id="mc_embed_signup">
+                <form action="//operable.us10.list-manage.com/subscribe/post?u=476dad5ee4509929cf7b6f956&amp;id=ccc5ff6410" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <h4>Tell me when the UI is ready!</h4>
+                    <p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required></p>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_476dad5ee4509929cf7b6f956_ccc5ff6410" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" class="btn btn-default" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <p class="text-muted text-xs-center">Copyright &#169 2016 Operable Inc.</p>
+        </div>
+      </div>
+      <!-- FOOTER END-->
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+  </body>
+  </html>
