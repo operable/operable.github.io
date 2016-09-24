@@ -73,6 +73,10 @@ h1.crumb {
   text-align: left;
 }
 
+h1.followup {
+  text-align: center;
+}
+
   h2.introsub, h4.introsub{
     color: black;
   }
@@ -303,4 +307,13 @@ hr.equation {
   border: 0;
   height: 3px;
   background: #333;
+}
+
+/* Table width */
+table {
+    width:100%;
+}
+
+td {
+width:25%;
 }
