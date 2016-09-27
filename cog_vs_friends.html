@@ -7,6 +7,12 @@
   <meta name="description" content="Cog vs other ChatOps tools: How does Cog measure up?">
   <meta name="keywords" content="Operable, devops, chatops, chatbot, slackbot">
   <meta name="author" content="Operable, Inc.">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
 
   <title>
     Cog vs Friends : How does Cog measure up?
@@ -143,143 +149,143 @@
             <h3 class="text-info">How does Cog measure up?</h3>
             <hr>
             <p>ChatOps solutions like Cog vary in how they are built, what chat platforms they work on, and how they handle security. Here is how Cog measures up to Hubot and Lita. ErrBot and YetiBot are soon to follow. This comparison table is a work in progress, so if there is additional information you are interested in seeing compared OR if there are corrections that need to be made, please <a href="mailto:info@operable.io?subject=Cog_VS_Friends_Thoughts">let us know</a>.
+            </div>
+            <table class="table table-responsive table-hover">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th><h3>Cog</h3></th>
+                  <th><h3>Hubot</h3></th>
+                  <th><h3>Lita</h3></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><h3>Chat Connectivity</h3></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Slack</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>HipChat</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>IRC</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td><h3>Extensibility</h3></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Interaction Model</td>
+                  <td>Unix CLI</td>
+                  <td>Conversational</td>
+                  <td>Conversational</td>
+                </tr>
+                <tr>
+                  <td>Pipeline Support</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                </tr>
+                <tr>
+                  <td>Supported Languages</td>
+                  <td>Any</td>
+                  <td>Coffeescript, JS</td>
+                  <td>Ruby</td>
+                </tr>
+                <tr>
+                  <td>Webhook Triggers</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Presence-based Events</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td><h3>Security</h3></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Command Isolation</td>
+                  <td>Isolated</td>
+                  <td>Shared</td>
+                  <td>Shared</td>
+                </tr>
+                <tr>
+                  <td>Command Execution</td>
+                  <td>Separate process; Docker Container</td>
+                  <td>Embedded</td>
+                  <td>Embedded</td>
+                </tr>
+                <tr>
+                  <td>Fine Grained ACLs</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                </tr>
+                <tr>
+                  <td>Audit Log</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                </tr>
+                <tr>
+                  <td><h3>Operablility</h3></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>HA Command Execution</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                </tr>
+                <tr>
+                  <td>Command Deployment</td>
+                  <td>Docker image; Config Mgmt</td>
+                  <td>npm package; script file</td>
+                  <td>Ruby gem; script file</td>
+                </tr>
+                <tr>
+                  <td>Data Storage</td>
+                  <td>Postgres</td>
+                  <td>Redis (for persistence by default)</td>
+                  <td>Redis (default)</td>
+                </tr>
+                <tr>
+                  <td>Management Interface</td>
+                  <td>Chat, CLI (cogctl), REST APIs</td>
+                  <td>TBD</td>
+                  <td>API</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
           </div>
-          <table class="table table-responsive table-hover">
-            <thead>
-              <tr>
-                <th></th>
-                <th><h3>Cog</h3></th>
-                <th><h3>Hubot</h3></th>
-                <th><h3>Lita</h3></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><h3>Chat Connectivity</h3></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Slack</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-              </tr>
-              <tr>
-                <td>HipChat</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-              </tr>
-              <tr>
-                <td>IRC</td>
-                <td>No</td>
-                <td>Yes</td>
-                <td>Yes</td>
-              </tr>
-              <tr>
-                <td><h3>Extensibility</h3></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Interaction Model</td>
-                <td>Unix CLI</td>
-                <td>Conversational</td>
-                <td>Conversational</td>
-              </tr>
-              <tr>
-                <td>Pipeline Support</td>
-                <td>Yes</td>
-                <td>No</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Supported Languages</td>
-                <td>Any</td>
-                <td>Coffeescript, JS</td>
-                <td>Ruby</td>
-              </tr>
-              <tr>
-                <td>Webhook Triggers</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-              </tr>
-              <tr>
-                <td>Presence-based Events</td>
-                <td>No</td>
-                <td>Yes</td>
-                <td>Yes</td>
-              </tr>
-              <tr>
-                <td><h3>Security</h3></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Command Isolation</td>
-                <td>Isolated</td>
-                <td>Shared</td>
-                <td>Shared</td>
-              </tr>
-              <tr>
-                <td>Command Execution</td>
-                <td>Separate process; Docker Container</td>
-                <td>Embedded</td>
-                <td>Embedded</td>
-              </tr>
-              <tr>
-                <td>Fine Grained ACLs</td>
-                <td>Yes</td>
-                <td>No</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Audit Log</td>
-                <td>Yes</td>
-                <td>No</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td><h3>Operablility</h3></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>HA Command Execution</td>
-                <td>Yes</td>
-                <td>No</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Command Deployment</td>
-                <td>Docker image; Config Mgmt</td>
-                <td>npm package; script file</td>
-                <td>Ruby gem; script file</td>
-              </tr>
-              <tr>
-                <td>Data Storage</td>
-                <td>Postgres</td>
-                <td>Redis (for persistence by default)</td>
-                <td>Redis (default)</td>
-              </tr>
-              <tr>
-                <td>Management Interface</td>
-                <td>Chat, CLI (cogctl), REST APIs</td>
-                <td>TBD</td>
-                <td>API</td>
-              </tr>
-            </tbody>
-          </table>
-          <hr>
         </div>
       </div>
-    </div>
       <div class="block-secondary">
         <div class="container ">
           <div class="row">
@@ -297,73 +303,73 @@
               <a href="http://docs.operable.io/docs/"><button class="btn btn-primary btn-lg">Cog Documentation</button></a>
             </div>
           </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- FOOTER -->
-  <div class="block-secondary block-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 m-b-md">
-          <h3 class="text-uppercase footer">About Cog</h3>
-          <p>We believe that DevOps is a team sport and in order to <strong>win more often</strong>, we created Cog.</p>
+    <!-- FOOTER -->
+    <div class="block-secondary block-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 m-b-md">
+            <h3 class="text-uppercase footer">About Cog</h3>
+            <p>We believe that DevOps is a team sport and in order to <strong>win more often</strong>, we created Cog.</p>
 
-          <p>Cog is ChatOps turned up to 11. Built with powerful access control means that you can collaborate around even the most sensitive tasks with confidence. We focus on extensibility and adaptability, so your team can respond quickly to the unexpected, without sacrificing visibility, automation or security. Have your cake and eat it too.</p>
-        </div>
-        <div class="col-sm-4 m-b-md">
-          <h3 class="text-uppercase footer">Company</h3>
-          <ul class="list-unstyled list-spaced">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="cog_vs_friends.html">Cog vs Friends</a></li>
-            <li><a href="http://blog.operable.io">Blog</a></li>
-            <li><a href="branding.html">Branding</a></li>
-            <li><a href="mailto:info@operable.io">Contact</a></li>
-            <li><a href="http://eepurl.com/b6TBMj">Newsletter Sign Up</a></li>
-            <li><a href="http://twitter.com/operableinc"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-            <li><a href="https://www.iubenda.com/privacy-policy/7789404">Privacy Policy</a></li>
-            <li><a href="terms.html">Hosted Terms</a></li>
-          </ul>
-          <h3 class="text-uppercase footer">Product</h3>
-          <ul class="list-unstyled list-spaced">
-            <li><a href="http://docs.operable.io/docs">Documentation</button></a></li>
-            <li><a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</button></a></li>
-            <ul>
-            </div>
-            <div class="col-sm-4 m-b-md">
-              <h3 class="text-uppercase footer">Chat</h3>
-              <p>Join us in our public Cog chat channel on Slack.
-              </p>
-              <a href="http://slack.operable.io/"><button class="btn btn-slack btn-lg btn-borderless text-uppercase">Chat with us on <i class="fa fa-slack" aria-hidden="true"></i> Slack</button></a>
-              <h3 class="text-uppercase footer">Email</h3>
-              <p>When we hit milestones we harness the power of electronic email! Email will be seldom but VERY important stuff.
-              </p>
-              <div id="mc_embed_signup">
-                <form action="//operable.us10.list-manage.com/subscribe/post?u=476dad5ee4509929cf7b6f956&amp;id=ccc5ff6410" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
-                    <h4>Tell me when the UI is ready!</h4>
-                    <p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required></p>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_476dad5ee4509929cf7b6f956_ccc5ff6410" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" class="btn btn-default" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                  </div>
-                </form>
+            <p>Cog is ChatOps turned up to 11. Built with powerful access control means that you can collaborate around even the most sensitive tasks with confidence. We focus on extensibility and adaptability, so your team can respond quickly to the unexpected, without sacrificing visibility, automation or security. Have your cake and eat it too.</p>
+          </div>
+          <div class="col-sm-4 m-b-md">
+            <h3 class="text-uppercase footer">Company</h3>
+            <ul class="list-unstyled list-spaced">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="cog_vs_friends.html">Cog vs Friends</a></li>
+              <li><a href="http://blog.operable.io">Blog</a></li>
+              <li><a href="branding.html">Branding</a></li>
+              <li><a href="mailto:info@operable.io">Contact</a></li>
+              <li><a href="http://eepurl.com/b6TBMj">Newsletter Sign Up</a></li>
+              <li><a href="http://twitter.com/operableinc"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="https://www.iubenda.com/privacy-policy/7789404">Privacy Policy</a></li>
+              <li><a href="terms.html">Hosted Terms</a></li>
+            </ul>
+            <h3 class="text-uppercase footer">Product</h3>
+            <ul class="list-unstyled list-spaced">
+              <li><a href="http://docs.operable.io/docs">Documentation</button></a></li>
+              <li><a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</button></a></li>
+              <ul>
+              </div>
+              <div class="col-sm-4 m-b-md">
+                <h3 class="text-uppercase footer">Chat</h3>
+                <p>Join us in our public Cog chat channel on Slack.
+                </p>
+                <a href="http://slack.operable.io/"><button class="btn btn-slack btn-lg btn-borderless text-uppercase">Chat with us on <i class="fa fa-slack" aria-hidden="true"></i> Slack</button></a>
+                <h3 class="text-uppercase footer">Email</h3>
+                <p>When we hit milestones we harness the power of electronic email! Email will be seldom but VERY important stuff.
+                </p>
+                <div id="mc_embed_signup">
+                  <form action="//operable.us10.list-manage.com/subscribe/post?u=476dad5ee4509929cf7b6f956&amp;id=ccc5ff6410" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                      <h4>Tell me when the UI is ready!</h4>
+                      <p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required></p>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_476dad5ee4509929cf7b6f956_ccc5ff6410" tabindex="-1" value=""></div>
+                      <div class="clear"><input type="submit" value="Subscribe" class="btn btn-default" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
+            <hr>
+            <p class="text-muted text-xs-center">Copyright &#169 2016 Operable Inc.</p>
           </div>
-          <hr>
-          <p class="text-muted text-xs-center">Copyright &#169 2016 Operable Inc.</p>
         </div>
+        <!-- FOOTER END-->
       </div>
-      <!-- FOOTER END-->
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/toolkit.js"></script>
-    <script src="assets/js/application.js"></script>
-    <script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
-  </body>
-  </html>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/toolkit.js"></script>
+      <script src="assets/js/application.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+      </script>
+    </body>
+    </html>
