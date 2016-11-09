@@ -321,3 +321,8 @@ table {
 td {
 width:25%;
 }
+
+b,
+strong {
+  font-weight: 700;
+}
