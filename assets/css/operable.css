@@ -13,7 +13,7 @@ a {
   }
 
 a:hover {
-  color:#369FCD;
+  color:rgba(54, 159, 205, .8);
   text-decoration: none;
 }
 
@@ -183,6 +183,10 @@ IMG.displayed {
   }
 
 IMG.wide {
+  width: 100%;
+}
+
+IMG.full {
   width: 100%;
 }
 

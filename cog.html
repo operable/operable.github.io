@@ -62,6 +62,7 @@
 <body>
 
   <!--NAVIGATION START-->
+  <!--NAVIGATION MOBILE START-->
   <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
     <ul class="nav nav-bordered nav-stacked">
       <li class="nav-header">Operable</li>
@@ -69,7 +70,7 @@
         <a href="index.html">Home</a>
       </li>
       <li>
-        <a href="cog_vs_friends.html">Cog vs Friends</a>
+        <a href="cog.html">Get Cog</a>
       </li>
       <li>
         <a href="http://blog.operable.io">Blog</a>
@@ -90,7 +91,7 @@
       <li class="nav-divider"></li>
       <li class="nav-header">Product</li>
       <li>
-        <a href="http://docs.operable.io/docs">Documentation</a>
+        <a href="http://cog-book.operable.io">Docs</a>
       </li>
       <li>
         <a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</button></a>
@@ -100,7 +101,9 @@
       </li>
     </ul>
   </div>
+  <!--NAVIGATION MOBILE END-->
 
+  <!--NAVIGATION WEB HEAD START-->
   <div class="stage" id="stage">
 
     <div class="block app-header">
@@ -123,10 +126,13 @@
         <div class="navbar-collapse collapse text-uppercase">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="cog_vs_friends.html">Cog vs Friends</a>
+              <a href="cog.html" class="active">Get Cog</a>
             </li>
             <li>
-              <a href="http://docs.operable.io/docs">Docs</a>
+              <a href="enterprise.html">Enterprise</a>
+            </li>
+            <li>
+              <a href="http://cog-book.operable.io">Docs</a>
             </li>
             <li>
               <a href="http://blog.operable.io">Blog</a>
@@ -138,6 +144,8 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+    <!--NAVIGATION WEB HEAD END-->
+
     <!--NAVIGATION END-->
 
     <!-- CONTENT BEGINNING -->
@@ -145,12 +153,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-6">
-            <img class="wide" src="assets/img/cogspace.svg">
+            <img class="wide" src="assets/img/cog_peek.svg">
           </div>
           <div class="col-lg-6 col-sm-6">
-            <h1 class="introcopy crumb">Cog</h1>
-            <h3 class="text-info">Something about Cog for ChatOps / Cog for business</h3>
-            <p>Your team's communication and collaboration can now be backed with Cog. Use Cog to manage your infrastructure, support peer learning, and conduct collaborative research at the same time, right from chat. Cog is easy to <a href="https://cog-book.operable.io/#_installation_guide">install and build out</a> and also safe and simple to <a href="enterprise.html">integrate into your large enterprise</a>.</p>
+            <h1 class="introcopy crumb">Get Cog</h1>
+            <h3 class="text-info">Built for ChatOps.</h3>
+            <p>Your team's communication and collaboration can now be backed with Cog. Use Cog to manage your infrastructure, support peer learning, and conduct collaborative research at the same time, right from chat. Cog is easy to install and build out while remaining safe and simple to integrate into the workflows at your large enterprise.</p>
+            <a href="https://cog-book.operable.io/#_installing_and_running_cog_with_docker_compose"><button class="btn-primary btn-lg text-uppercase">Cog's Quick Docker Install</button></a>
         </div>
           </div>
         </div>
@@ -158,26 +167,21 @@
     <div class="block-secondary p-b-md">
         <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-sm-3 gray p-y-md">
-            <!--img src="assets/img/icons/celebrate.svg" alt="Celebration icon" title="Celebrate good times, come on!">-->
-            <a><h3>The Cog Book</h3></a>
+          <div class="col-lg-3 col-sm-3 gray">
+            <h3><a href="http://cog-book.operable.io">The Cog Book</a></h3></a>
             <p>Cog's documentation in one place. Read on your favorite internet device.</p>
-            <a href="http://www.abc.xyz/"><button class="btn btn-default btn-lg text-uppercase">The Cog Book</button></a>
           </div>
-          <div class="col-lg-3 col-sm-3 gray2 p-y-md">
-            <a><h3>Bundle Warehouse</h3></a>
+          <div class="col-lg-3 col-sm-3 gray2">
+            <h3><a href="http://bundles.operable.io">Bundle Warehouse</h3></a>
             <p>Command Bundles make Cog go. Download or install bundles from the warehouse!</p>
-            <a href="http://www.abc.xyz/"><button class="btn btn-default btn-lg text-uppercase">Bundle Warehouse</button></a>
           </div>
-          <div class="col-lg-3 col-sm-3 gray3 p-y-md">
-            <a><h3>Console User Interface</h3></a>
-            <p>Need a different view of how you've set up Cog? Manage Cog from the Console.</p>
-            <a href="http://www.abc.xyz/"><button class="btn btn-default btn-lg text-uppercase">Console UI</button></a>
+          <div class="col-lg-3 col-sm-3 gray">
+            <h3><a href="#">Console User Interface</h3></a>
+            <p>Need a different view of how you've set up Cog? Manage Cog from Console.</p>
           </div>
-          <div class="col-lg-3 col-sm-3 gray p-y-md">
-            <a><h3>Enterprise Services</h3></a>
+          <div class="col-lg-3 col-sm-3 gray2">
+            <h3><a href="enterprise.html">Enterprise Services</h3></a>
             <p>Need ChatOps help? Want a bundle writing workshop? Need moar? We have moar!</p>
-            <a href="http://www.abc.xyz/"><button class="btn btn-default btn-lg text-uppercase">Cog Services</button></a>
           </div>
         </div>
       </div>
@@ -188,15 +192,20 @@
         <div class="container">
         <div class="row">
           <div class="col-lg-8 col-sm-8">
-            <img class="wide" src="http://placehold.it/600x300">
-            <h2>Kickstarter</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="http://slack.operable.io/"><button class="btn btn-lg btn-borderless text-uppercase">Lorem</button></a>
+            <img class="full" src="assets/img/kickstarter2.png">
+            <h2>Kicking it with the Kickstarter team</h2>
+            <blockquote>Engineers were running commands on their laptops, or clicking around a web UI without a lot of transparency or context...<br><a href="https://twitter.com/ktheory"><i class="fa fa-twitter" aria-hidden="true"></i> Aaron Suggs</a></blockquote>
+            <p><strong>Does that sound familiar?</strong> The team at Kickstarter is ahead of the ChatOps game, yet even they realized that they were lacking visibility. They felt that their processes around how they managed AWS CloudFormation could be better, so together we created a command bundle for Cog that allows them to manage CloudFormation from Slack. Crowdsourced win!
+            </p>
+            <p>Read more on the blog:<br>
+            <a href="http://bit.ly/Blog_Kickstarter-Cog"> Quick Interview with Aaron Suggs: Backing ChatOps at Kickstarter</a></p>
           </div>
           <div class="col-lg-4 col-sm-4">
-            <img class="wide" src="http://placehold.it/300x300">
-            <h2>UberOps</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <img class="full" src="assets/img/collaboration2.svg">
+            <h2>Community Collaboration</h2>
+            <p>As a growing open source project, we're collaborating with some amazing engineers from around the globe. Thank you teams at GetVero, GitLab, Skroutz, UberOps, and Kickstarter to name a few. We are proud to know that you're actively integrating Cog into ChatOps at your respective companies!</p>
+            <p>Join the community conversation in Slack:<br>
+            <a href="http://slack.operable.io"> Let me in!</a></p>
           </div>
         </div>
       </div>
