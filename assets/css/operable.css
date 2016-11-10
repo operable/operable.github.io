@@ -326,3 +326,18 @@ b,
 strong {
   font-weight: 700;
 }
+
+h2.love {
+line-height: 100%;
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 3.5vw;
+text-transform: uppercase;
+padding:  0;
+}
+
+@media (max-width: 767px) {
+  h1.love {
+    font-size: 10vw;
+  }
+  }
