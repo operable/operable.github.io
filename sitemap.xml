@@ -1,103 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url><loc>http://www.operable.io/</loc><changefreq>monthly</changefreq><priority>1.00</priority></url>
-<url><loc>http://www.operable.io/</loc><changefreq>monthly</changefreq><priority>1.00</priority></url>
-<url><loc>https://www.operable.io</loc><changefreq>monthly</changefreq><priority>1.00</priority></url>
-<url><loc>https://www.operable.io</loc><changefreq>monthly</changefreq><priority>1.00</priority></url>
-<url><loc>http://operable.io</loc><changefreq>monthly</changefreq><priority>1.00</priority></url>
-<url><loc>http://operable.io</loc><changefreq>monthly</changefreq><priority>1.00</priority></url>
-<url><loc>https://operable.io</loc><lastmod>2016-08-19T16:50:10+00:00</lastmod><changefreq>monthly</changefreq><priority>1.00</priority></url>
-<url><loc>https://operable.io/index.html</loc><lastmod>2016-08-19T16:50:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>https://operable.io/cog_vs_friends.html</loc><lastmod>2016-09-26T16:50:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>https://operable.io/branding.html</loc><lastmod>2016-08-19T16:50:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>http://docs.operable.io/docs</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>http://slack.operable.io</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>http://docs.operable.io/docs/installation</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>http://docs.operable.io/docs/introducing-cog</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>http://docs.operable.io/docs/building-command-bundles</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>https://blog.operable.io/?gi=d6e2c9b8b37</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>http://docs.operable.io</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/v0.12</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/versions</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/bootstrapping-cog</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/installing-managing-relays</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/managing-bundles</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/commands-and-bundles</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/installing-your-first-command-bundle</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/developing-a-trigger-1</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/cog-with-docker-compose</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/cog-architecture</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/a-tour-through-cogs-authorization-system</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/command-pipelines</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/dynamic-command-configuration</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/command-execution-rules</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/redirecting-pipeline-output</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/triggers</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/bundle-configs</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/cog-environment-variables</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/relay-environment-variables</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/services</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/returning-data-from-cog</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/useful-issue-searches</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/contributor-license-agreement</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/designing-for-chatops</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/docs/hosted-faq</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>http://docs.operable.io/login</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>https://blog.operable.io/latest</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>https://blog.operable.io/cog-0-12-cog-visits-nyc-9d520cbb9d72?source=latest</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>https://blog.operable.io/cog-0-11-1-b44ecb1b1ce6?source=latest</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>https://blog.operable.io/cog-0-11-f6c5f26f7138?source=latest</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>https://blog.operable.io/about</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>https://blog.operable.io/?source=1</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
-<url><loc>https://blog.operable.io/trending</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-10-0-131c6c861c95?source=latest</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-9-1-b768daa9819d?source=latest</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-9-0-ca296d92a6b2?source=latest</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-8-0-10f2bcd0729c?source=latest</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-7-5-e4610606625d?source=latest</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-7-57ed9a349ea4?source=latest</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-6-97717f439156?source=latest</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------0-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-12-cog-visits-nyc-9d520cbb9d72?source=user_profile---------0-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------1-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-11-1-b44ecb1b1ce6?source=user_profile---------1-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------2-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-11-f6c5f26f7138?source=user_profile---------2-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------3-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-10-0-131c6c861c95?source=user_profile---------3-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------4-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-9-1-b768daa9819d?source=user_profile---------4-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------5-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-9-0-ca296d92a6b2?source=user_profile---------5-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------6-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-8-0-10f2bcd0729c?source=user_profile---------6-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------7-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-7-5-e4610606625d?source=user_profile---------7-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------8-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-3-1-5fed3f31246a?source=user_profile---------8-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=user_profile---------9-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-3-88bc28fcff20?source=user_profile---------9-</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=avatar-lo_750f44a50830-6490bf12a8fc</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=logo-lo_750f44a50830-6490bf12a8fc</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/?source=footer_card</loc><changefreq>monthly</changefreq><priority>0.56</priority></url>
-<url><loc>https://blog.operable.io/cog-0-12-cog-visits-nyc-9d520cbb9d72?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/cog-0-11-1-b44ecb1b1ce6?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-6-97717f439156?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-7-57ed9a349ea4?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/cog-0-3-1-5fed3f31246a?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-3-88bc28fcff20?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/introducing-cog-8a682e42a25a?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/cog-0-10-0-131c6c861c95?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-8-0-10f2bcd0729c?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-4-2713babf1c3b?source=most_recommended</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/?source=2</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-7-5-e4610606625d</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-5-c66394046af8</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/introducing-cog-8a682e42a25a</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-5-c66394046af8?source=user_profile---------0-</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-4-2713babf1c3b?source=user_profile---------1-</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/introducing-cog-8a682e42a25a?source=user_profile---------2-</loc><changefreq>monthly</changefreq><priority>0.46</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-3-88bc28fcff20</loc><changefreq>monthly</changefreq><priority>0.38</priority></url>
-<url><loc>https://blog.operable.io/announcing-cog-0-4-2713babf1c3b</loc><changefreq>monthly</changefreq><priority>0.38</priority></url>
-<!-- Generated by www.web-site-map.com -->
+  <url>
+    <loc>http://www.operable.io</loc>
+    <lastmod>2016-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>http://operable.io</loc>
+    <lastmod>2016-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>http://operable.io/index.html</loc>
+    <lastmod>2016-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>http://operable.io/enterprise.html</loc>
+    <lastmod>2016-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>http://operable.io/cog.html</loc>
+    <lastmod>2016-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>http://operable.io/branding.html</loc>
+    <lastmod>2016-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
 </urlset>
