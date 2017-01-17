@@ -108,6 +108,10 @@ h1.followup {
     color: rgba(255, 255, 255, .7);
   }
 
+#mc-embedded-subscribe-form {
+  color: #141414;
+}
+
 /* BUTTONS */
 
 .btn-primary {
