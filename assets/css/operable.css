@@ -187,7 +187,7 @@ IMG.wide {
 }
 
 IMG.full {
-  width: 100%;
+  max-width: 100%;
 }
 
 IMG.half {
@@ -195,6 +195,11 @@ IMG.half {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+IMG.fifty {
+  width: 1.5em;
+  height: 1.5em;
 }
 
 IMG.tall {
@@ -245,9 +250,21 @@ IMG.footerlogo {
 }
 
 
-/* gray block */
+/* color block backgrounds */
 .gray {
   background-color: #F4F5F6;
+}
+
+.gray2 {
+  background-color: #ecedee;
+}
+
+.gray3 {
+  background-color: #e1e3e4;
+}
+
+.gray4 {
+  background-color: #ababab;
 }
 
 /* misc */
@@ -297,14 +314,6 @@ IMG.footerlogo {
 .itemlist {
   margin-top: -1em;
   margin-bottom: -1em;
-}
-
-.gray2 {
-  background-color: #ecedee;
-}
-
-.gray3 {
-  background-color: #e1e3e4;
 }
 
 hr.equation {
