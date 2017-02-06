@@ -306,6 +306,11 @@ IMG.footerlogo {
   color: white;
 }
 
+.block-blue {
+  background-color: #1E5775;
+  color: white;
+}
+
 .image-left {
     float: left;
     margin: 0 0 10px 10px;
@@ -350,7 +355,7 @@ padding:  0;
 }
 
 @media (max-width: 767px) {
-  h1.love {
-    font-size: 10vw;
+  h2.love {
+    font-size: 7vw;
   }
   }
