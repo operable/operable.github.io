@@ -306,6 +306,11 @@ IMG.footerlogo {
   color: white;
 }
 
+.block-blue {
+  background-color: #1E5775;
+  color: white;
+}
+
 .image-left {
     float: left;
     margin: 0 0 10px 10px;
@@ -344,13 +349,24 @@ h2.love {
 line-height: 100%;
 font-family: 'Oswald', sans-serif;
 font-weight: 700;
-font-size: 3.5vw;
+font-size: 2.5vw;
 text-transform: uppercase;
 padding:  0;
 }
 
 @media (max-width: 767px) {
-  h1.love {
-    font-size: 10vw;
+  h2.love {
+    font-size: 7vw;
   }
   }
+
+.fade2 {
+     opacity: 1;
+     transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out;
+     }
+
+     .fade2:hover {
+        opacity: 0.5;
+        }
