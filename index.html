@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Operable, makers of Cog, the ChatOps platform you've been looking for.">
-  <meta name="abstract" content="Operable, makers of Cog, the ChatOps platform you've been looking for.">
+  <meta name="abstract" content="Cog is the ChatOps chatbot you've been looking for. Bring your CLI into and work collaboratively with your team with Cog.">
   <meta name="keywords" content="Operable, devops, chatops, chatbot, slackbot, Cog">
   <meta name="author" content="Operable, Inc.">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -25,11 +25,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="assets/css/toolkit-startup.css" rel="stylesheet">
   <link href="assets/css/application-startup.css" rel="stylesheet">
-  <link href="assets/css/application-minimal.css" rel="stylesheet">
   <link href="assets/css/operable.css" rel="stylesheet">
-
-  <!-- Mailchimp -->
-  <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
   <!-- Google Analytics
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script>
@@ -40,358 +36,169 @@
 
   ga('create', 'UA-73327436-1', 'auto');
   ga('send', 'pageview');
+
   </script>
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PW4NG2');</script>
-<!-- End Google Tag Manager -->
-
-<script>
-/**
-* Google Event Tracking : https://support.google.com/analytics/answer/1136920?hl=en
-*/
-var trackOutboundLink = function(url) {
-  ga('send', 'event', 'outbound', 'click', url, {
-    'transport': 'beacon',
-    'hitCallback': function(){document.location = url;}
-  });
-}
-</script>
-
-<style>
-/* note: this is a hack for ios iframe for bootstrap themes shopify page */
-/* this chunk of css is not part of the toolkit :) */
-/* …curses ios, etc… */
-@media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    width: 1px;
-    min-width: 100%;
-    *width: 100%;
+  <style>
+  /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+  /* this chunk of css is not part of the toolkit :) */
+  /* …curses ios, etc… */
+  @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+      width: 1px;
+      min-width: 100%;
+      *width: 100%;
+    }
+    #stage {
+      height: 1px;
+      overflow: auto;
+      min-height: 100vh;
+      -webkit-overflow-scrolling: touch;
+    }
   }
-  #stage {
-    height: 1px;
-    overflow: auto;
-    min-height: 100vh;
-    -webkit-overflow-scrolling: touch;
-  }
-}
-</style>
+  </style>
 </head>
+
+
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW4NG2"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
-    <!--NAVIGATION START-->
-    <!--NAVIGATION MOBILE START-->
-    <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
-      <ul class="nav nav-bordered nav-stacked">
-        <li class="nav-header">Operable</li>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="cog.html" class="active">Get Cog</a>
-        </li>
-        <li>
-          <a href="enterprise.html">Enterprise</a>
-        </li>
-        <li>
-          <a href="http://cog-book.operable.io">Docs</a>
-        </li>
-        <li>
-          <a href="http://blog.operable.io">Blog</a>
-        </li>
-        <li>
-          <a href="http://www.github.com/operable">GitHub</button></a>
-        </li>
-        <li>
-          <a href="branding.html">Branding</a>
-        </li>
-        <li class="nav-divider"></li>
-        <li class="nav-header">Communication</li>
-        <li>
-          <a href="http://slack.operable.io/">Slack</a>
-        </li>
-        <li>
-          <a href="http://twitter.com/operableinc">Twitter</a>
-        </li>
-        <li>
-          <a href="mailto:info@operable.io">Contact</a>
-        </li>
-        <li>
-          <a href="http://eepurl.com/b6TBMj">Newsletter Sign Up</a>
-        </li>
-      </ul>
-    </div>
-    <!--NAVIGATION MOBILE END-->
+  <!--NAVIGATION START-->
+  <!--NAVIGATION MOBILE START-->
+  <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+    <ul class="nav nav-bordered nav-stacked">
+      <li class="nav-header">Cog for ChatOps</li>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="http://cog-book.operable.io">Docs</a>
+      </li>
+      <li>
+        <a href="http://blog.operable.io">Blog</a>
+      </li>
+      <li>
+        <a href="http://www.github.com/operable">GitHub</button></a>
+      </li>
+      <li class="nav-divider"></li>
+      <li class="nav-header">Chat</li>
+      <li>
+        <a href="http://slack.operable.io/">Chat on Slack</a>
+      </li>
+    </ul>
+  </div>
+  <!--NAVIGATION MOBILE END-->
 
-    <!--NAVIGATION WEB HEAD START-->
-    <div class="stage" id="stage">
+  <!--NAVIGATION WEB HEAD START-->
+  <div class="stage" id="stage">
 
-      <div class="block app-header">
+    <div class="block app-header">
 
 
-        <nav class="navbar-default navbar-fixed-top navbar-padded app-navbar p-t-md">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed p-x-0"
-              data-target="#stage" data-toggle="stage" data-distance="-250">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img class="tall" src="assets/img/logobb.png">
-            </a>
-          </div>
-          <div class="navbar-collapse collapse text-uppercase">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="cog.html" class="active">Get Cog</a>
-              </li>
-              <li>
-                <a href="enterprise.html">Enterprise</a>
-              </li>
-              <li>
-                <a href="http://cog-book.operable.io">Docs</a>
-              </li>
-              <li>
-                <a href="http://blog.operable.io">Blog</a>
-              </li>
-              <li>
-                <a href="mailto:info@operable.io">Contact</a>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+      <nav class="navbar-default navbar-fixed-top navbar-padded app-navbar p-t-md">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed p-x-0"
+            data-target="#stage" data-toggle="stage" data-distance="-250">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img class="tall" src="assets/img/logobb.png">
+          </a>
         </div>
-      </nav>
-      <!--NAVIGATION WEB HEAD END-->
-      <!--NAVIGATION END-->
-      <!--CONTENT START-->
-      <!-- COG INTRODUCTION -->
-      <div class="block-secondary">
+        <div class="navbar-collapse collapse text-uppercase">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="http://cog-book.operable.io">Docs</a>
+            </li>
+            <li>
+              <a href="http://blog.operable.io">Blog</a>
+            </li>
+            <li>
+              <a href="http://slack.operable.io/">Chat on Slack</a>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!--NAVIGATION WEB HEAD END-->
+
+    <!--NAVIGATION END-->
+
+    <!-- CONTENT BEGINNING -->
+    <div class="block-secondary p-b-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <img class="wide" src="assets/img/cog_peek.svg">
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <h1 class="introcopy crumb">Cog</h1>
+            <h3 class="text-info">Built for ChatOps.</h3>
+            <p>Use Cog to manage your infrastructure, support peer learning, and conduct collaborative research at the same time, right from chat. Cog is easy to install and simple to operate while remaining powerful enough to handle complex workflows.</p>
+            <a href="https://github.com/operable/cog"><button class="btn btn-primary btn-lg text-uppercase">Cog on GitHub</button></a>
+            <hr>
+            <p>Already have ChatOps practices and want to give Cog a try?<br><a href="https://cog-book.operable.io/sections/installation_guide.html">Cog's Installation Guide</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-secondary p-b-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 gray">
+            <h3 class="text-center"><a href="http://bundles.operable.io">Bundle Warehouse</h3></a>
+            <p>Command Bundles make Cog go. Download, install, or search for bundles in the community Bundle Warehouse. </p>
+          </div>
+          <div class="col-lg-6 col-sm-6 gray2">
+            <h3 class="text-center"><a href="http://cog-book.operable.io">The Cog Book</a></h3></a>
+            <p>Cog's documentation in one place. Learn about Cog's architecture, Command Bundles, and our motivation behind Cog.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+<!--NAVIGATION DIV END-->
+<!-- CONTENT END -->
+
+
+<!-- FOOTER -->
+      <div class="block-secondary block-footer">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 m-t-md">
-              <h1 class="introcopy"><span id="herogray">ChatOps</span><br><span id="herored">+</span>Cog<hr class="equation"><span id="herodarkblue">Continuous<br> Devops<span></h1>
-                <div class="text-right"><a href="https://cog-book.operable.io/sections/installation_guide.html" onclick="trackOutboundLink('https://cog-book.operable.io/sections/installation_guide.html'); return false;"><button class="btn btn-default btn-lg">Installation Guide</button></a>
-                  <a href="enterprise.html"><button class="btn btn-primary btn-lg">Enterprise Teams</button></a>
-                </div>
+            <div class="col-sm-8 m-b-md">
+              <h3 class="text-uppercase footer">About Cog</h3>
+              <p><strong>Cog is the ChatOps platform you've been waiting for.</strong> Built with powerful access controls and comprehensive auditing means you can collaborate on even the most sensitive tasks with confidence.</p>
+              <p>Cog was built with a focus on extensibility, adaptability, and usability so your team can respond quickly to the unexpected without sacrificing speed, visibility, or security.<p>
+                <p>You can have your <a href="https://twitter.com/hashtag/chatops">#chatops</a> <i class="fa fa-birthday-cake" aria-hidden="true" title="Mmmm...cake"></i> and eat it too.</p>
               </div>
-              <div class="col-sm-6 text-xs-center text-sm-left">
-                <img src="assets/img/monitoring500.svg" class="wide p-b-md";>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- COG INTRODUCTION -->
-
-
-<!-- FEATURED NEWS -->
-<div class="block-secondary gray p-t-md">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <ul class="featured-list">
-          <li class="m-b-sm">
-            <div class="featured-list-icon text-primary">
-              <img class="fifty" src="assets/img/kickstarter_square.png" alt="Kickstarter!" title="Kickstarter is awesome BTW.">
-            </div>
-            <h2 class="love">Ops at Kickstarter</h2>
-            <p class="featured-list-icon-text">
-              Read about how Operable helped the operations team at Kickstarter manage their <a href="http://bit.ly/Blog_Kickstarter-Cog" onclick="trackOutboundLink('http://bit.ly/Blog_Kickstarter-Cog'); return false;" class="">AWS Cloudformation</a> workflows with Cog.
-              Also, check out what they did with Hashicorp's <a href="http://bit.ly/2hvMiT1" onclick="trackOutboundLink('http://bit.ly/2hvMiT1'); return false;" class="">Consul</a>.
-            </p>
-          </li>
-        </ul>
-          </div>
-          <div class="col-sm-6">
-            <ul class="featured-list">
-              <li class="m-b-sm">
-                <div class="featured-list-icon text-primary">
-                  <font color="gold"><i class="fa fa-star" aria-hidden="true"></i></font>
-                </div>
-                <h2 class="love">Community Allstars</h2>
-                <p class="featured-list-icon-text">
-                  Our community is amazing! Check out some of the <a href="http://bit.ly/2kxMpCu" class="">interviews</a> we've done with community members and the Operable team. Join the conversation over in Cog's<a href="slack.operable.io" class=""> Slack channel</a>.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-        <hr>
-        <div class="row">
-          <div class="col-sm-12">
-                <h2 class="love text-center">In the Bundle Warehouse</h2>
-                <div class="col-sm-3">
-                  <a href="https://bundles.operable.io/bundles/pagerduty/latest" target="_blank"><img class="displayed fade2" src="assets/img/pagerduty.png" alt="PagerDuty Bundle" title="PagerDuty Bundle"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="https://bundles.operable.io/bundles/statuspage/latest" target="_blank"><img class="displayed fade2" src="assets/img/statuspage.png" alt="StatusPage Bundle" title="StatusPage Bundle"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="https://bundles.operable.io/bundles/ec2/latest" target="_blank"><img class="displayed fade2" src="assets/img/aws.png" alt="Amazon ec2 Bundle" title="Amazon ec2 Bundle"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="https://bundles.operable.io/bundles/heroku/latest" target="_blank"><img class="displayed fade2" src="assets/img/heroku.png" alt="Heroku Bundle" title="Heroku Bundle"></a>
-                </div>
-              </div>
-            </div>
-        </div>
-        <!-- FEATURED NEWS -->
-        <!--STORIES-->
-        <div class="block-secondary p-t-md gray3">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-                <h6 class="text-muted text-uppercase">Work before meows</h6>
-                <h2  class="m-t-0 m-b">"Cog was built for real work, not <span title="CAN HAZ ENTERPRISE-GRADE CHATBOT?">cat<span> pictures."</h2>
-                  <hr class="alert-dark">
-                </div>
-              </div>
-              <div class="row p-t-md p-b-md text-center">
-                <div class="col-sm-4"><img src="assets/img/icons/server_error.svg" alt="Website server error icon" title="Everything is fine..."></div>
-                <div class="col-lg-8 text-left"><h3>Deployment is step one</h3>
-                  <p>DevOps shouldn't stop when your application gets deployed. ChatOps helps you automate all of your workflow so that you can use the same tools to solve problems that you use to develop and deploy your applications and infrastructure every day. And with Cog, it's easy to build new workflows using whatever programming language you want.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="block-secondary gray2">
-            <div class="container text-center">
-              <div class="row p-t-md p-b-md">
-                <div class="col-sm-4"><img src="assets/img/icons/pager.svg" atl="Pager icon" title="Coggy, Coggy, who can I turn to?"></div>
-                <div class="col-lg-8 text-left"><h3>It's dangerous to go alone...</h3>
-                  <p>Leave the heroines and heroes to the comic books; DevOps is all about teamwork. ChatOps makes your work visible and collaboration effortless. Product managers can see when a new build is deployed, your support team can see when you have a production problem, and your engineering team can see the steps you're taking to troubleshoot. Not only can your team view what's going on, they can actively participate in the solution, design, or management. All of this in the same chat window you already use to collaborate every day.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="block-secondary gray">
-            <div class="container text-center">
-              <div class="row p-t-md p-b-md">
-                <div class="col-sm-4"><img src="assets/img/icons/celebrate.svg" alt="Celebration icon" title="Celebrate good times, come on!"></div>
-                <div class="col-lg-8 text-left"><h3>Victory!</h3>
-                  <p>Cog was built for real work, not cat pictures. Strong access controls and audit logging let you automate even the most sensitive tasks, securely. Unix-style command pipelines let you combine Cog commands on the fly to solve new problems without having to write new code. And that's just the beginning.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--STORIES-->
-          <!--TEAM COLLABORATION-->
-          <div class="block-secondary p-t-lg p-b-lg block-inverse">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-3">
-                  <h6 class="text-uppercase">Team Workflow</h6>
-                  <h3 class="m-t-0">Who says you can't teach an old Cog new tricks?</h3>
-                  <p>Cog brings your DevOps workflow right into chat. Choose from a growing selection of existing <a href="https://bundles.operable.io/" onclick="trackOutboundLink('https://bundles.operable.io/'); return false;" class="inverse">command bundles</a> or easily <a href="https://cog-book.operable.io/#_writing_a_command_bundle" onclick="trackOutboundLink('https://cog-book.operable.io/#_writing_a_command_bundle'); return false;" class="inverse">build your own</a> to make your work collaborative by default. Cog makes access control, audit logging, and bundle installation a breeze so you can focus on your real work.</p>
-                </div>
-                <div class="col-sm-9">
-                  <img class="wide" src="assets/img/cog1.gif">
-                  <p class="text-center text-muted">Getting work done with Cog.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--TEAM COLLABORATION-->
-          <!--MANAGEMENT UI-->
-          <div class="block">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-9">
-                  <img class="wide m-t-0" src="assets/img/cogconsole.png">
-                </div>
-                <div class="col-sm-3">
-                  <h6 class="text-uppercase">Now with Enterprise Teams</h6>
-                  <h3 class="m-t-0">Cog Console<br>User Interface</h3>
-                  <p class="m-b-md">Manage Cog with <code>cogctl</code> from the command line, or the new Cog Console user interface from your browser. Cog Console was built to help give you a visual representation of all your Cog parts and pieces. Tips, documentation, and tutorials built into Cog Console make management of Cog efficient. </p>
-                  <a href="enterprise.html"><button class="btn btn-primary btn-lg text-uppercase">Cog for Enterprise Teams</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--MANAGEMENT UI-->
-          <!-- CONTENT END -->
-          <!-- FOOTER -->
-          <div class="block-secondary block-footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-4 m-b-md">
-                  <h3 class="text-uppercase footer">About Operable</h3>
-                  <p><strong>Cog is the ChatOps platform you've been waiting for.</strong> Built with powerful access controls and comprehensive auditing means you can collaborate on even the most sensitive tasks with confidence.</p>
-                  <p>We focus on extensibility, adaptability, and usability so your team can respond quickly to the unexpected without sacrificing speed, visibility, or security.<p>
-                    <p>You can have your <i class="fa fa-birthday-cake" aria-hidden="true" title="Mmmm...cake"></i> and eat it too.</p>
-                  </div>
-                  <div class="col-sm-4 m-b-md">
-                    <h3 class="text-uppercase footer">Product</h3>
-                    <ul class="list-unstyled">
-                      <li><a href="cog.html">Get Cog</a></li>
-                      <li><a href="enterprise.html">Enterprise Cog</a></li>
-                      <li><a href="http://cog-book.operable.io">Documentation</a></li>
-                      <li><a href="http://www.github.com/operable"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
-                    </ul>
-                    <h3 class="text-uppercase footer">Company</h3>
-                    <ul class="list-unstyled">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="http://blog.operable.io">Blog</a></li>
-                      <li><a href="branding.html">Branding</a></li>
-                      <li><a href="mailto:info@operable.io">Contact</a></li>
-                      <li><a href="http://twitter.com/operableinc"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-                      <li><a href="https://www.iubenda.com/privacy-policy/7789404">Privacy Policy</a></li>
-                      <ul>
-                      </div>
-                      <div class="col-sm-4 m-b-md">
-                        <h3 class="text-uppercase footer">Chat</h3>
-                        <p>Join us in our public Cog chat channel on Slack.
-                        </p>
-                        <a href="http://slack.operable.io/"><button class="btn btn-slack btn-lg btn-borderless text-uppercase">Chat with us on <i class="fa fa-slack" aria-hidden="true"></i> Slack</button></a>
-                        <h3 class="text-uppercase footer">Email</h3>
-                        <p>Sign up to get important updates about Cog. We take your privacy very seriously and will never share your contact information.
-                        </p>
-                        <div id="mc_embed_signup">
-                          <form action="//operable.us10.list-manage.com/subscribe/post?u=476dad5ee4509929cf7b6f956&amp;id=ccc5ff6410" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
-                              <p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required></p>
-                              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_476dad5ee4509929cf7b6f956_ccc5ff6410" tabindex="-1" value=""></div>
-                              <div class="clear"><input type="submit" value="Subscribe" class="btn btn-default" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                    <hr>
-                    <p class="text-muted text-xs-center">Copyright &#169 2016 Operable Inc.</p>
+              <div class="col-sm-4 m-b-md">
+                <h3 class="text-uppercase footer">Documentation</h3>
+                <ul class="list-unstyled">
+                  <li><a href="https://cog-book.operable.io/sections/installation_guide.html">Installation Guide</a></li>
+                  <li><a href="https://cog-book.operable.io/sections/writing_a_command_bundle.html">Writing a Bundle of Commands</a></li>
+                  <li><a href="http://cog-book.operable.io">General Documentation</a></li>
+                  <h3 class="text-uppercase footer">Chat</h3>
+                  <p>Join the community Cog's public chat channel on Slack.</p>
+                  <a href="http://slack.operable.io/"><button class="btn btn-slack btn-lg btn-borderless text-uppercase">Chat on <i class="fa fa-slack" aria-hidden="true"></i> Slack</button></a>
+                </ul>
                   </div>
                 </div>
-                <!-- FOOTER END-->
+                <hr>
+                <p class="text-xs-center">Built with <span color="red"><i class="fa fa-heart" aria-hidden="true"></i></span> by the community and team at Operable.</p>
               </div>
-              <script src="assets/js/jquery.min.js"></script>
-              <script src="assets/js/toolkit.js"></script>
-              <script src="assets/js/application.js"></script>
-              <script type="application/ld+json">
-              {
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                "name": "Operable, Inc.",
-                "url": "https://www.operable.io",
-                "logo": "https://operable.io/assets/img/logobb.png",
-                "sameAs": [
-                  "https://github.com/operableinc",
-                  "https://twitter.com/operable",
-                ]
-              }
-              </script>
-            </body>
-            </html>
+            </div>
+<!-- FOOTER END-->
+          </div>
+          <script src="assets/js/jquery.min.js"></script>
+          <script src="assets/js/toolkit.js"></script>
+          <script src="assets/js/application.js"></script>
+        </body>
+        </html>
