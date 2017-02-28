@@ -359,14 +359,7 @@ padding:  0;
     font-size: 7vw;
   }
   }
-
-.fade2 {
-     opacity: 1;
-     transition: opacity .25s ease-in-out;
-     -moz-transition: opacity .25s ease-in-out;
-     -webkit-transition: opacity .25s ease-in-out;
-     }
-
-     .fade2:hover {
-        opacity: 0.5;
-        }
+  
+.fa-heart {
+  color: red;
+}
